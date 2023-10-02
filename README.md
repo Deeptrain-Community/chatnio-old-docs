@@ -1,21 +1,12 @@
-# Welcome!
+---
+description: >-
+  👋 ChatNio 是一个轻量级 ChatGPT 聊天平台, 实现 ChatGPT 联网功能，多账户均衡负载，缓存，鉴权系统，支持 Stream
+  实时响应，图像生成，对话记忆功能，支持多种AI模型
+---
 
-## Welcome to MyAPI
+# 欢迎来到 Chat Nio！
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+## Nio API
 
-## Want to jump right in?
+欢迎来到Chat Nio的文档！在接下来的文档中，我们将逐步介绍Nio API的详情用法和规则。
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
-
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
-{% endcontent-ref %}
-
-## Want to deep dive?
-
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
-
-{% content-ref url="reference/api-reference/" %}
-[api-reference](reference/api-reference/)
-{% endcontent-ref %}

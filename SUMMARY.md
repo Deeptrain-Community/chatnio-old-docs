@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [欢迎来到 Chat Nio！](README.md)
 * [Quick Start](quick-start.md)
 
 ## Reference
