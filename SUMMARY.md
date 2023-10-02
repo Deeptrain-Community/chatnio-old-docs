@@ -1,7 +1,7 @@
 # Table of contents
 
 * [欢迎来到 Chat Nio！](README.md)
-* [👋 快速开始](kuai-su-kai-shi.md)
+* [👋 快速开始](quick-start.md)
 
 ## Reference
 
