@@ -8,9 +8,13 @@
 
 ## 下载库
 
-> 使用 RESTful 接口无需进行此步骤
+
 
 {% tabs %}
+{% tab title="RESTful API" %}
+使用 RESTful 接口无需进行此步骤
+{% endtab %}
+
 {% tab title="Node" %}
 ```sh
 npm install --save chatnio-api
@@ -23,7 +27,7 @@ pip install -U chatnio-api
 ```
 {% endtab %}
 
-{% tab title="Golang" %}
+{% tab title="Go" %}
 ```sh
 go get https://github.com/deeptrain-community/chatnio-api-go
 ```
@@ -61,6 +65,10 @@ nio.setKey("your-api-key")
 # nio.setKeyFromEnv("env-name")
 ```
 {% endtab %}
+
+{% tab title="Go" %}
+
+{% endtab %}
 {% endtabs %}
 
 ## &#x20;创建第一个请求
@@ -75,6 +83,10 @@ nio.setKey("your-api-key")
 {% endtab %}
 
 {% tab title="Python" %}
+
+{% endtab %}
+
+{% tab title="Go" %}
 
 {% endtab %}
 {% endtabs %}
