@@ -75,8 +75,8 @@ nio.setKey("your-api-key")
 
 {% tabs %}
 {% tab title="RESTful API" %}
-{% content-ref url="reference/api-jie-kou-can-kao/" %}
-[api-jie-kou-can-kao](reference/api-jie-kou-can-kao/)
+{% content-ref url="reference/api-reference/" %}
+[api-reference](reference/api-reference/)
 {% endcontent-ref %}
 {% endtab %}
 

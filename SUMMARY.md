@@ -5,6 +5,6 @@
 
 ## Reference
 
-* [📖 API 接口参考](reference/api-jie-kou-can-kao/README.md)
-  * [💰 余额](reference/api-jie-kou-can-kao/yu-e.md)
-  * [Users](reference/api-jie-kou-can-kao/users.md)
+* [📖 API 接口参考](reference/api-reference/README.md)
+  * [💰 余额](reference/api-reference/pets.md)
+  * [🎁 订阅和礼包](reference/api-jie-kou-can-kao/ding-yue-he-li-bao.md)
