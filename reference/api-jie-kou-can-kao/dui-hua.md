@@ -36,7 +36,7 @@
 
 {% swagger method="get" path="/conversation/load" baseUrl="https://api.chatnio.net" summary="获取单个对话内容" %}
 {% swagger-description %}
-获取单个对话内容, 如 _https://api.chatnio.net/conversation?id=1_
+获取单个对话内容, 如 _https://api.chatnio.net/conversation/load?id=1_
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="id" type="Integer" required="true" %}
@@ -78,3 +78,37 @@
 
 {% endswagger-response %}
 {% endswagger %}
+
+## 删除对话
+
+{% swagger method="get" path="/conversation/delete" baseUrl="https://api.chatnio.net" summary="删除对话" %}
+{% swagger-description %}
+获取单个对话内容, 如 _https://api.chatnio.net/conversation/delete?id=1_
+{% endswagger-description %}
+
+{% swagger-parameter in="query" name="id" required="true" type="Integer" %}
+对话 ID （整数）
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```json
+{
+    "status": true
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="200: OK" description="Conversation Not Found" %}
+```json
+{
+    "status": false,
+    "message": "conversation not found"
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="401: Unauthorized" description="" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
