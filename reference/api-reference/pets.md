@@ -61,3 +61,28 @@
 {% endswagger-response %}
 {% endswagger %}
 
+## # 查询礼包
+
+{% swagger method="get" path="/package" baseUrl="https://api.chatnio.net" summary="查询礼包获取情况，返回是否符合条件并领取" %}
+{% swagger-description %}
+实名认证即可获得 50 Nio 点数
+
+未成年（学生）可额外获得 150 Nio 点数
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="Query Successfully" %}
+```json
+{
+    "status": true,
+    "data": {
+        "cert": true,
+        "teenager": true
+    }
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+
+{% endswagger-response %}
+{% endswagger %}
