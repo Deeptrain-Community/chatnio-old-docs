@@ -7,5 +7,18 @@ coverY: 0
 
 # 欢迎来到 Chat Nio！
 
+### 了解更多
 
+{% content-ref url="ai-mo-xing-ji-ji-fei.md" %}
+[ai-mo-xing-ji-ji-fei.md](ai-mo-xing-ji-ji-fei.md)
+{% endcontent-ref %}
 
+### API
+
+{% content-ref url="quick-start.md" %}
+[quick-start.md](quick-start.md)
+{% endcontent-ref %}
+
+{% content-ref url="reference/api-reference/" %}
+[api-reference](reference/api-reference/)
+{% endcontent-ref %}

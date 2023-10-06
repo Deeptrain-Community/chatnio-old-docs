@@ -2,7 +2,7 @@
 description: 生成项目
 ---
 
-# ⭐ 项目生成
+# 💡 项目生成
 
 {% hint style="info" %}
 项目生成功能基于预设完成，不保证成功率和稳定性
@@ -14,15 +14,15 @@ description: 生成项目
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="token" type="String" required="true" %}
-
+JWT Token / API Key (匿名: **anonymous**)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="prompt" type="String" required="true" %}
-
+消息
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="model" type="String" required="true" %}
-
+AI 模型 [ai-mo-xing-ji-ji-fei.md](../../../ai-mo-xing-ji-ji-fei.md "mention")
 {% endswagger-parameter %}
 
 {% swagger-response status="201: Created" description="WebSocket Stream Response" %}

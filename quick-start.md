@@ -46,9 +46,7 @@ go get https://github.com/deeptrain-community/chatnio-api-go
 {% tab title="RESTful API" %}
 设置请求头：
 
-| Header        | Value        |
-| ------------- | ------------ |
-| Authorization | Your API Key |
+<table><thead><tr><th width="332.5">Header</th><th>Value</th></tr></thead><tbody><tr><td>Authorization</td><td>Your API Key</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Node" %}

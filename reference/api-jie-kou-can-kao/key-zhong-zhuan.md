@@ -7,7 +7,7 @@ description: API Key 中转
 将接入点 [https://api.openai.com](https://api.openai.com) 更改为 [https://api.chatnio.net](https://api.chatnio.net) 即可使用
 
 1. **支持 SSE 流式传输**
-2. **多模型兼容** 不止 OpenAI 模型！其他模型格式相同
+2. **多模型兼容** 不止 OpenAI 模型！其他模型格式相同 其他支持模型参考 [ai-mo-xing-ji-ji-fei.md](../../ai-mo-xing-ji-ji-fei.md "mention")
 3. **Token 计算功能**
 
 

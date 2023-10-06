@@ -1,7 +1,7 @@
 # Table of contents
 
 * [欢迎来到 Chat Nio！](README.md)
-* [🧐 AI 模型](ai-mo-xing.md)
+* [🧐 AI 模型及计费](ai-mo-xing-ji-ji-fei.md)
 * [👋 快速开始](quick-start.md)
 
 ## Reference

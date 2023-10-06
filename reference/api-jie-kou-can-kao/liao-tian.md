@@ -20,7 +20,7 @@ JWT Token / API Key (匿名: **anonymous**)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="model" type="String" required="true" %}
-AI 模型
+AI 模型 [ai-mo-xing-ji-ji-fei.md](../../ai-mo-xing-ji-ji-fei.md "mention")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="web" type="String" %}
