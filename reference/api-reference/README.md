@@ -1,5 +1,15 @@
 # 📖 API 接口参考
 
+## 聊天相关
+
+{% content-ref url="../api-jie-kou-can-kao/liao-tian.md" %}
+[liao-tian.md](../api-jie-kou-can-kao/liao-tian.md)
+{% endcontent-ref %}
+
+{% content-ref url="../api-jie-kou-can-kao/key-zhong-zhuan.md" %}
+[key-zhong-zhuan.md](../api-jie-kou-can-kao/key-zhong-zhuan.md)
+{% endcontent-ref %}
+
 ## 对话相关
 
 {% content-ref url="../api-jie-kou-can-kao/dui-hua.md" %}

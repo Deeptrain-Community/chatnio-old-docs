@@ -7,7 +7,5 @@ coverY: 0
 
 # 欢迎来到 Chat Nio！
 
-## Nio API
 
-欢迎来到Chat Nio的文档！在接下来的文档中，我们将逐步介绍Nio API的详情用法和规则。
 
