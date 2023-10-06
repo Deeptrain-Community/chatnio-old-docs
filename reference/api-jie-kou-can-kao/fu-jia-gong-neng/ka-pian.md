@@ -24,7 +24,7 @@ description: 生成卡片
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="web" type="Boolean" %}
-是否开启联网功能（默认开启）
+是否开启联网功能（默认**开启**）
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="SVG Card" %}
