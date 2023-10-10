@@ -23,3 +23,23 @@
 ### New Bing
 
 <table><thead><tr><th>模型</th><th>费率</th><th width="188">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>bing-creative</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>bing-balanced</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>bing-precise</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
+
+### 智谱 AI
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="188">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>zhipu-chatglm-pro</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>收费</td><td>0.1</td><td>0.1</td></tr><tr><td>zhipu-chatglm-std</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>收费</td><td>0.05</td><td>0.05</td></tr><tr><td>zhipu-chatglm-lite</td><td>免费</td><td>0</td><td>0</td></tr></tbody></table>
+
+## 最低余额限制
+
+为了防止超出余额的部分过多，同时为了防止滥用，我们定义了特定模型的最低余额，当大于等于该余额时，可发起请求（联系我们可申请溢价）：
+
+| 模型                                   | 最低 nio 点数 |
+| ------------------------------------ | --------- |
+| zhipu-chatglm-pro, zhipu-chatglm-std | 1         |
+| spark-desk                           | 1         |
+| claude-2-100k                        | 1         |
+| gpt-4                                | 5         |
+| gpt-4-32k                            | 50        |
+
+{% hint style="info" %}
+除此之外其他模型均无最低余额限制
+{% endhint %}
