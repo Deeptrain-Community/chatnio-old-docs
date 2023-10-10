@@ -36,9 +36,9 @@
 
 | 模型                                   | 最低 nio 点数 |
 | ------------------------------------ | --------- |
-| zhipu-chatglm-pro, zhipu-chatglm-std | 1         |
 | spark-desk                           | 1         |
-| claude-2-100k                        | 1         |
+| claude-2                             | 1         |
+| zhipu-chatglm-pro, zhipu-chatglm-std | 1         |
 | gpt-4                                | 5         |
 | gpt-4-32k                            | 50        |
 
