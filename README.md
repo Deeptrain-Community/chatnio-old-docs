@@ -1,7 +1,5 @@
 ---
-description: >-
-  👋 ChatNio 是一个轻量级 ChatGPT 聊天平台, 实现 ChatGPT 联网功能，多账户均衡负载，缓存，鉴权系统，支持 Stream
-  实时响应，图像生成，对话记忆功能，支持多种AI模型
+description: 👋 ChatNio 是一个轻量级 AI 聊天平台, 实现模型联网功能，多账户均衡负载，缓存，鉴权系统，支持 Stream 实时响应，图像生成，对话记忆功能
 coverY: 0
 ---
 
