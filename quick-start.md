@@ -20,6 +20,12 @@ description: 欢迎来到Chat Nio的文档！在接下来的文档中，我们�
 
 
 
+## AI 模型计费
+
+{% content-ref url="ai-mo-xing-ji-ji-fei.md" %}
+[ai-mo-xing-ji-ji-fei.md](ai-mo-xing-ji-ji-fei.md)
+{% endcontent-ref %}
+
 ## API 接口参考
 
 {% content-ref url="reference/api-reference/" %}
