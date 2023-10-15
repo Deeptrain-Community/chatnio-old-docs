@@ -10,87 +10,19 @@ description: 欢迎来到Chat Nio的文档！在接下来的文档中，我们�
 
 > 注意，请妥善保管您的 API Key！请不要在公开环境（如 GitHub 公开仓库）中泄露 API Key！
 
-## 下载库
+## 下一步
+
+[Python SDK](https://github.com/Deeptrain-Community/chatnio-api-python)
+
+[Nodejs SDK](https://github.com/Deeptrain-Community/chatnio-api-node)
+
+[Golang SDK](https://github.com/Deeptrain-Community/chatnio-api-go)
 
 
 
-{% tabs %}
-{% tab title="RESTful API" %}
-使用 RESTful 接口无需进行此步骤
-{% endtab %}
+## API 接口参考
 
-{% tab title="Node" %}
-```sh
-npm install --save chatnio-api
-```
-{% endtab %}
-
-{% tab title="Python" %}
-```sh
-pip install -U chatnio-api
-```
-{% endtab %}
-
-{% tab title="Go" %}
-```sh
-go get https://github.com/deeptrain-community/chatnio-api-go
-```
-{% endtab %}
-{% endtabs %}
-
-## 初始化
-
-进行请求时，我们需要您的Key进行身份验证和配额计算。
-
-{% tabs %}
-{% tab title="RESTful API" %}
-设置请求头：
-
-<table><thead><tr><th width="332.5">Header</th><th>Value</th></tr></thead><tbody><tr><td>Authorization</td><td>Your API Key</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="Node" %}
-```javascript
-// require the chatnio-api module and set it up with your API key
-const nio = require("chatnio-api");
-nio.setKey("your-api-key");
-```
-{% endtab %}
-
-{% tab title="Python" %}
-```python
-# Set your API key before making the request
-import nio
-nio.setKey("your-api-key")
-
-# get key from env:
-# nio.setKeyFromEnv("env-name")
-```
-{% endtab %}
-
-{% tab title="Go" %}
-
-{% endtab %}
-{% endtabs %}
-
-## &#x20;创建第一个请求
-
-{% tabs %}
-{% tab title="RESTful API" %}
 {% content-ref url="reference/api-reference/" %}
 [api-reference](reference/api-reference/)
 {% endcontent-ref %}
-{% endtab %}
 
-{% tab title="Node" %}
-
-{% endtab %}
-
-{% tab title="Python" %}
-
-{% endtab %}
-
-{% tab title="Go" %}
-
-{% endtab %}
-{% endtabs %}
