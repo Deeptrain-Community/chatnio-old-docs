@@ -2,7 +2,7 @@
 
 
 
-{% swagger method="connect" path="/chat" baseUrl="wss://chatnio.net" summary="聊天" %}
+{% swagger method="connect" path="/chat" baseUrl="wss://api.chatnio.net" summary="聊天" %}
 {% swagger-description %}
 \[**WebSocket**] 聊天
 {% endswagger-description %}
