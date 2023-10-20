@@ -1,8 +1,16 @@
 ---
-description: 欢迎来到Chat Nio的文档！在接下来的文档中，我们将逐步介绍Nio API的详情用法和规则。
+description: 我们将逐步介绍ChatNio API的详情用法和规则。
 ---
 
-# 👋 快速开始
+# 🏃 快速开始
+
+## AI 模型计费
+
+使用 API 使用 ChatNio 与在 web 端使用 ChatNio 采取相同的收费策略。
+
+{% content-ref url="../ai-mo-xing-ji-ji-fei.md" %}
+[ai-mo-xing-ji-ji-fei.md](../ai-mo-xing-ji-ji-fei.md)
+{% endcontent-ref %}
 
 ## 获取 API Key
 
@@ -18,14 +26,8 @@ description: 欢迎来到Chat Nio的文档！在接下来的文档中，我们�
 
 [Golang SDK](https://github.com/Deeptrain-Community/chatnio-api-go)
 
-## AI 模型计费
-
-{% content-ref url="ai-mo-xing-ji-ji-fei.md" %}
-[ai-mo-xing-ji-ji-fei.md](ai-mo-xing-ji-ji-fei.md)
-{% endcontent-ref %}
-
 ## API 接口参考
 
-{% content-ref url="api-tiao-yong/api-reference/" %}
-[api-reference](api-tiao-yong/api-reference/)
+{% content-ref url="api-reference/" %}
+[api-reference](api-reference/)
 {% endcontent-ref %}

@@ -6,18 +6,18 @@
 
 ## 聊天相关
 
-{% content-ref url="../api-jie-kou-can-kao/liao-tian.md" %}
-[liao-tian.md](../api-jie-kou-can-kao/liao-tian.md)
+{% content-ref url="liao-tian.md" %}
+[liao-tian.md](liao-tian.md)
 {% endcontent-ref %}
 
-{% content-ref url="../api-jie-kou-can-kao/key-zhong-zhuan.md" %}
-[key-zhong-zhuan.md](../api-jie-kou-can-kao/key-zhong-zhuan.md)
+{% content-ref url="key-zhong-zhuan.md" %}
+[key-zhong-zhuan.md](key-zhong-zhuan.md)
 {% endcontent-ref %}
 
 ## 对话相关
 
-{% content-ref url="../api-jie-kou-can-kao/dui-hua.md" %}
-[dui-hua.md](../api-jie-kou-can-kao/dui-hua.md)
+{% content-ref url="dui-hua.md" %}
+[dui-hua.md](dui-hua.md)
 {% endcontent-ref %}
 
 ## 余额相关
@@ -28,6 +28,6 @@
 
 ## 订阅相关
 
-{% content-ref url="../api-jie-kou-can-kao/ding-yue-he-li-bao.md" %}
-[ding-yue-he-li-bao.md](../api-jie-kou-can-kao/ding-yue-he-li-bao.md)
+{% content-ref url="ding-yue-he-li-bao.md" %}
+[ding-yue-he-li-bao.md](ding-yue-he-li-bao.md)
 {% endcontent-ref %}

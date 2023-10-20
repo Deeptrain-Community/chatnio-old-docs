@@ -17,8 +17,8 @@ coverY: 0
 [quick-start.md](quick-start.md)
 {% endcontent-ref %}
 
-{% content-ref url="reference/api-reference/" %}
-[api-reference](reference/api-reference/)
+{% content-ref url="api-tiao-yong/api-reference/" %}
+[api-reference](api-tiao-yong/api-reference/)
 {% endcontent-ref %}
 
 ### GitHub
