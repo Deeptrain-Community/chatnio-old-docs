@@ -1,26 +1,30 @@
 ---
-description: 👋 ChatNio 是一个轻量级 AI 聊天平台, 实现模型联网功能，多账户均衡负载，缓存，鉴权系统，支持 Stream 实时响应，图像生成，对话记忆功能
+description: >-
+  ChatNio 是一个轻量级 AI 聊天平台, 实现了 模型联网功能，多账户均衡负载，缓存，鉴权系统，支持 Stream 实时响应，图像生成，对话记忆
+  等功能。
 coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
-# 欢迎来到 Chat Nio！
+# 👋 欢迎来到 Chat Nio 文档站！
 
-### 了解更多
-
-{% content-ref url="ai-mo-xing-ji-ji-fei.md" %}
-[ai-mo-xing-ji-ji-fei.md](ai-mo-xing-ji-ji-fei.md)
-{% endcontent-ref %}
-
-### API
-
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
-{% endcontent-ref %}
-
-{% content-ref url="reference/api-reference/" %}
-[api-reference](reference/api-reference/)
-{% endcontent-ref %}
-
-### GitHub
+相信 ChatNio 还有很多不尽如人意的地方。不过我们的平台代码以 Apache-2.0 协议开放在GitHub。如果你有兴趣，欢迎来为ChatNio添砖加瓦！
 
 {% embed url="https://github.com/Deeptrain-Community/chatnio" %}
+
+接下来，你可以通过左边的侧栏浏览本站目录，查找你需要的信息，如本站点未能解决你的疑问，请[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
+
+如果你在使用窄屏设备浏览本站，侧栏没有显示出来，请点击左上角 “三个杠” 呼出侧栏。
