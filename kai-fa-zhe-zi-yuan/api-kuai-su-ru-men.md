@@ -1,5 +1,5 @@
 ---
-description: 为你讲述 ChatNio API 的使用方式。
+description: 说明 ChatNio API 的使用方式。
 cover: >-
   https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxQcm9ncmFtbWluZyUyMEludGVyZmFjZXxlbnwwfHx8fDE2OTc4NjY4NzR8MA&ixlib=rb-4.0.3&q=85
 coverY: 0
