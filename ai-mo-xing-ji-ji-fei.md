@@ -46,6 +46,6 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 | gpt-4                                | 5         |
 | gpt-4-32k                            | 50        |
 
-{% hint style="info" %}
+{% hint style="success" %}
 除此之外其他模型均无最低余额限制
 {% endhint %}
