@@ -1,7 +1,7 @@
 ---
 description: >-
-  ChatNio 是一个轻量级 AI 聊天平台, 实现了 模型联网功能，多账户均衡负载，缓存，鉴权系统，支持 Stream 实时响应，图像生成，对话记忆
-  等功能。
+  🚀 Chat Nio 是一个强大且功能丰富的 AI 聚合聊天平台，支持分布式流式传输，图像生成，对话跨设备自动同步和分享功能，实现订阅和 Token
+  弹性计费系统，Key 中转服务，多模型聚合支持等。实现联网搜索功能，AI 卡片，AI 项目生成器等功能。
 coverY: 0
 layout:
   cover:
@@ -21,7 +21,7 @@ layout:
 
 # 👋 欢迎来到 Chat Nio 文档站！
 
-相信 ChatNio 还有很多仍待改进的地方。我们的平台所有代码以 Apache-2.0 协议开源。如果你有兴趣，欢迎来为ChatNio添砖加瓦！
+相信 ChatNio 还有很多仍待改进的地方。我们的平台所有代码以 Apache-2.0 协议开源。如果你有兴趣，欢迎来为 ChatNio 添砖加瓦！
 
 {% embed url="https://github.com/Deeptrain-Community/chatnio" %}
 
