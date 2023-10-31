@@ -2,7 +2,7 @@
 description: chatnio.net 提供的模型物美价廉，这是其价格表。
 ---
 
-# 💰 AI 模型及计费
+# 🧐 AI 模型及计费
 
 ## 计费详情
 
@@ -20,7 +20,7 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 
 ### 讯飞星火 SparkDesk
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="192">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>spark-desk</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.36</td><td>0.36</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="192">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>spark-desk-v1.5</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.15</td><td>0.15</td></tr><tr><td>spark-desk-v2</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr><tr><td>spark-desk-v3</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr></tbody></table>
 
 ### Google PaLM2
 
@@ -38,13 +38,13 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 
 为了防止超出余额的部分过多，同时为了防止滥用，我们定义了特定模型的最低余额，当大于等于该余额时，可发起请求（联系我们可申请溢价）：
 
-| 模型                                   | 最低 nio 点数 |
-| ------------------------------------ | --------- |
-| spark-desk                           | 1         |
-| claude-2                             | 1         |
-| zhipu-chatglm-pro, zhipu-chatglm-std | 1         |
-| gpt-4                                | 5         |
-| gpt-4-32k                            | 50        |
+| 模型                                            | 最低 nio 点数 |
+| --------------------------------------------- | --------- |
+| spark-desk v1.5, spark-desk v2, spark-desk v3 | 1         |
+| claude-2                                      | 1         |
+| zhipu-chatglm-pro, zhipu-chatglm-std          | 1         |
+| gpt-4                                         | 5         |
+| gpt-4-32k                                     | 50        |
 
 {% hint style="success" %}
 除此之外其他模型均无最低余额限制
