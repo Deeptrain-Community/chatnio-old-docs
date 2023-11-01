@@ -12,27 +12,31 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 
 ### **ChatGPT**
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="178">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-4</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费（高级版订阅每天前 <strong>50</strong> 条免费）</td><td>2.1</td><td>4.3</td></tr><tr><td>gpt-4-32k</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>4.2</td><td>8.6</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-4</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费（高级版订阅每天前 <strong>50</strong> 条免费）</td><td>2.1</td><td>4.3</td></tr><tr><td>gpt-4-32k</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>4.2</td><td>8.6</td></tr></tbody></table>
 
 ### Claude
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="186">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-1</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>claude-2</td><td>低于<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.008</td><td>0.008</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-1</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>claude-2</td><td>低于<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.008</td><td>0.008</td></tr></tbody></table>
 
-### 讯飞星火 SparkDesk
+### SparkDesk 讯飞星火
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="192">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>spark-desk-v1.5</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.15</td><td>0.15</td></tr><tr><td>spark-desk-v2</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr><tr><td>spark-desk-v3</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="135">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>spark-desk-v1.5</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.15</td><td>0.15</td></tr><tr><td>spark-desk-v2</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr><tr><td>spark-desk-v3</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr></tbody></table>
+
+### ChatGLM 智谱清言
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="147">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>zhipu-chatglm-pro</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.1</td><td>0.1</td></tr><tr><td>zhipu-chatglm-std</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr><tr><td>zhipu-chatglm-lite</td><td>免费</td><td>0</td><td>0</td></tr></tbody></table>
+
+### DashScope 通义千问
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="131">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>qwen-plus</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.2</td><td>0.2</td></tr><tr><td>qwen-plus-net</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.2</td><td>0.2</td></tr><tr><td>qwen-turbo</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.08</td><td>0.08</td></tr><tr><td>qwen-turbo-net</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.08</td><td>0.08</td></tr></tbody></table>
 
 ### Google PaLM2
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="188">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>chat-bison-001</td><td>免费</td><td>0</td><td>0</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th width="191">费率</th><th width="161">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>chat-bison-001</td><td>免费</td><td>0</td><td>0</td></tr></tbody></table>
 
 ### New Bing
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="188">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>bing-creative</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>bing-balanced</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>bing-precise</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
-
-### 智谱 AI
-
-<table><thead><tr><th>模型</th><th>费率</th><th width="188">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>zhipu-chatglm-pro</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.1</td><td>0.1</td></tr><tr><td>zhipu-chatglm-std</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr><tr><td>zhipu-chatglm-lite</td><td>免费</td><td>0</td><td>0</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="138">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>bing-creative</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>bing-balanced</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>bing-precise</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
 
 ## 最低余额限制
 
