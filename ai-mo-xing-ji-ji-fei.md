@@ -10,13 +10,25 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 **1** CNY = **10** Nio 点数
 {% endhint %}
 
-### **ChatGPT**
+### OpenAI
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dalle</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-4, gpt-4v, gpt-4-dalle</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费（高级版订阅每天前 <strong>50</strong> 条免费）</td><td>2.1</td><td>4.3</td></tr><tr><td>gpt-4-32k</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>4.2</td><td>8.6</td></tr></tbody></table>
+{% hint style="success" %}
+GPT 4 (包括 GPT-4V, DALLE3) 对高级版及以上订阅每日前 50 次请求免费
+{% endhint %}
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dalle</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-4, gpt-4v, gpt-4-dalle</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>2.1</td><td>4.3</td></tr><tr><td>gpt-4-32k</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>4.2</td><td>8.6</td></tr></tbody></table>
+
+{% hint style="warning" %}
+GPT-4 32K 模型点数消耗大，除特殊需求（如长上下文）选用 GPT 4 即可，请知悉。
+{% endhint %}
 
 ### Claude
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-1</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>claude-2</td><td>低于<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.008</td><td>0.008</td></tr></tbody></table>
+{% hint style="success" %}
+Claude 2 100k 模型对学生认证者，高级版及以上订阅免费，普通用户每日前 30 次请求免费。
+{% endhint %}
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-2</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-2-100k</td><td>低于<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.05</td><td>0.05</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
 
 ### SparkDesk 讯飞星火
 
@@ -34,9 +46,17 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 
 <table><thead><tr><th>模型</th><th width="191">费率</th><th width="161">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>chat-bison-001</td><td>免费</td><td>0</td><td>0</td></tr></tbody></table>
 
+{% hint style="info" %}
+PaLM2 不支持包括中文在内的语言，且返回为“伪”流式传输。
+{% endhint %}
+
 ### New Bing
 
 <table><thead><tr><th>模型</th><th>费率</th><th width="138">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>bing-creative</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>bing-balanced</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr><tr><td>bing-precise</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
+
+{% hint style="info" %}
+New Bing 为逆向模型，可能出现无法使用，速率限制等情况，此为正常现象，追求稳定者勿用。
+{% endhint %}
 
 ## 最低余额限制
 
@@ -45,7 +65,7 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 | 模型                                            | 最低 nio 点数 |
 | --------------------------------------------- | --------- |
 | spark-desk v1.5, spark-desk v2, spark-desk v3 | 1         |
-| claude-2                                      | 1         |
+| claude-2-100k                                 | 1         |
 | zhipu-chatglm-pro, zhipu-chatglm-std          | 1         |
 | gpt-4, gpt-4v, gpt-4-dalle                    | 5         |
 | gpt-4-32k                                     | 50        |
