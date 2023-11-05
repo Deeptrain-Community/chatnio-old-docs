@@ -13,10 +13,10 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 ### OpenAI
 
 {% hint style="success" %}
-GPT 4 (包括 GPT-4V, DALLE3) 对高级版及以上订阅每日前 50 次请求免费
+GPT 4 (包括 GPT-4 Vision, DALLE3) 对高级版及以上订阅每日前 50 次请求免费
 {% endhint %}
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dalle</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-4, gpt-4v, gpt-4-dalle</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>2.1</td><td>4.3</td></tr><tr><td>gpt-4-32k</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>4.2</td><td>8.6</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dalle</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-4, gpt-4-v, gpt-4-dalle</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>2.1</td><td>4.3</td></tr><tr><td>gpt-4-32k</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>4.2</td><td>8.6</td></tr></tbody></table>
 
 {% hint style="warning" %}
 GPT-4 32K 模型点数消耗大，除特殊需求（如长上下文）选用 GPT 4 即可，请知悉。
@@ -67,7 +67,7 @@ New Bing 为逆向模型，可能出现无法使用，速率限制等情况，�
 | spark-desk v1.5, spark-desk v2, spark-desk v3 | 1         |
 | claude-2-100k                                 | 1         |
 | zhipu-chatglm-pro, zhipu-chatglm-std          | 1         |
-| gpt-4, gpt-4v, gpt-4-dalle                    | 5         |
+| gpt-4, gpt-4-v, gpt-4-dalle                   | 5         |
 | gpt-4-32k                                     | 50        |
 
 {% hint style="success" %}
