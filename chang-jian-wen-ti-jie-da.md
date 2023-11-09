@@ -12,7 +12,16 @@
 
 Claude 100k 支持 100k 上下文，支持大文本解析等功能，从价格，稳定性，并发考虑来看是不错的选择。
 
+#### 3> 为什么我选 GPT-4 模型，但是他说是基于 GPT-3 架构？
+
+此为正常现象，GPT-4会回答自己为“基于 GPT-3 架构开发（还不是回答 GPT3.5架构）”， 您可以提问诸如“_鲁迅为什么暴打周树人, 打鸟问题，Tile T2 Project_” 等问题综合辨别市面上的真假 GPT-4 模型。3.5 会开始胡编模式说为两个人，4 会正常回答。
+
 ### Key 中转相关
 
-&#x20;
+&#x20;1\. ChatGPT Next Web 配置
+
+> 您可以直接使用 [nextweb.chatnio.net](https://nextweb.chatnio.net)
+
+1. API Key 从下拉菜单中的 **API 设置** 中获取
+2. 接口地址填写 **https://api.chatnio.net**
 
