@@ -13,7 +13,7 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 ### OpenAI
 
 {% hint style="success" %}
-GPT 4 (包括 1106, GPT-4 Vision, DALLE3) 对高级版及以上订阅每日前 200 次请求免费
+GPT 4 (包括 1106, GPT-4 Vision, DALLE3) 对高级版及以上订阅每日前 100 次请求免费
 {% endhint %}
 
 <table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo (包括1106)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dalle</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-4, gpt-4-v, gpt-4-dalle</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>2.1 * 0.6</td><td>4.3 * 0.6</td></tr><tr><td>gpt-4-1106-preview</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.7 * 0.6</td><td>2.1 * 0.6</td></tr><tr><td>gpt-4-32k</td><td><a href="https://openai.com/pricing">官网</a> 8折</td><td>4.2 * 0.8</td><td>8.6 * 0.8</td></tr></tbody></table>
