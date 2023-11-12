@@ -4,7 +4,7 @@ description: API Key 中转
 
 # 🌟 Key 中转
 
-将接入点 [https://api.openai.com](https://api.openai.com) 更改为 [https://api.chatnio.net](https://api.chatnio.net) 即可使用
+将接入点 [https://api.openai.com](https://api.openai.com) 的部分更改为 [https://api.chatnio.net](https://api.chatnio.net) 即可使用
 
 1. **支持 SSE 流式传输**
 2. **多模型兼容** 不止 OpenAI 模型！其他模型格式相同 其他支持模型参考 [ai-mo-xing-ji-ji-fei.md](../../ai-mo-xing-ji-ji-fei.md "mention")
@@ -38,3 +38,6 @@ Example Response:
 ```
 {% endcode %}
 
+### 联网功能
+
+在模型名前面加 **web-** 即可使用联网搜索功能（如 _**web**-gpt-4_ ），支持全部模型。
