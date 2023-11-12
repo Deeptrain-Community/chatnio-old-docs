@@ -46,6 +46,10 @@ openai.api_key = "<Your Api-Key>"
 
 
 
+3. **One API**
+
+* 设置 **OpenAI** 格式，代理地址为 **https://api.chatnio.net**
+
 3. **LobeChat**&#x20;
 
 > 当前不支持 Function Call 功能，敬请期待
