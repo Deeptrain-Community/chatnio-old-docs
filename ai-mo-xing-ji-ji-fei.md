@@ -24,7 +24,7 @@ GPT-4 32K 模型点数消耗较大，使用 GPT-4 1106 Preview 也是一个不�
 
 ### AI 绘图
 
-<table><thead><tr><th width="194">模型</th><th>费率</th><th>价格（点数）</th><th width="234">信息</th></tr></thead><tbody><tr><td>dall-e-2（不稳定）</td><td>免费</td><td>0</td><td>512x512</td></tr><tr><td>dall-e-3</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>5.6</td><td>HD 1024x1024</td></tr><tr><td>midjourney</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>0.5</td><td>Relax 模式</td></tr><tr><td>midjourney-fast</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>2</td><td>Fast 模式</td></tr><tr><td>midjourney-turbo</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>5</td><td>Turbo 模式</td></tr></tbody></table>
+<table><thead><tr><th width="194">模型</th><th>费率</th><th>价格（点数）</th><th width="234">信息</th></tr></thead><tbody><tr><td>dall-e-2（不稳定）</td><td>免费</td><td>0</td><td>512x512</td></tr><tr><td>dall-e-3</td><td>对齐<a href="https://openai.com/pricing">官网</a>计费</td><td>5.6</td><td>HD 1024x1024</td></tr><tr><td>midjourney</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>0.5</td><td>Relax 模式</td></tr><tr><td>midjourney-fast</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>2</td><td>Fast 模式</td></tr><tr><td>midjourney-turbo</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>5</td><td>Turbo 模式</td></tr><tr><td>stable-diffusion</td><td>算力平均值</td><td>0.25</td><td>Stable Diffusion XL, POE 逆向 + Hugging Face</td></tr></tbody></table>
 
 ### Claude
 
@@ -62,17 +62,29 @@ PaLM2 不支持包括中文在内的语言，且返回为“伪”流式传输�
 New Bing 为逆向模型，可能出现无法使用，速率限制等情况，此为正常现象，追求稳定者勿用。
 {% endhint %}
 
+### Meta LLaMa
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="138">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td><p>llama-2-70b</p><p>code-llama-34b</p></td><td>算力平均值</td><td>0.25</td><td>0.25</td></tr><tr><td><p>llama-2-13b</p><p>llama-2-7b</p><p>code-llama-13b</p><p>code-llama-7b</p></td><td>算力平均值</td><td>0.1</td><td>0.1</td></tr></tbody></table>
+
+{% hint style="info" %}
+LLaMa 模型不保证高速和稳定性，吐字速度随当前可用性能影响
+{% endhint %}
+
+
+
 ## 最低余额限制
 
 为了防止超出余额的部分过多，同时为了防止滥用，我们定义了特定模型的最低余额，当大于等于该余额时，可发起请求（联系我们可申请溢价）：
 
-| 模型                                                        | 最低 nio 点数 |
-| --------------------------------------------------------- | --------- |
-| spark-desk v1.5, spark-desk v2, spark-desk v3             | 1         |
-| claude-1-100k, claude-2-100k                              | 1         |
-| zhipu-chatglm-turbo, zhipu-chatglm-pro, zhipu-chatglm-std | 1         |
-| gpt-4, gpt-4-turbo, gpt-4-v, gpt-4-dalle                  | 5         |
-| gpt-4-32k                                                 | 50        |
+| 模型                                                                                  | 最低 nio 点数 |
+| ----------------------------------------------------------------------------------- | --------- |
+| spark-desk v1.5, spark-desk v2, spark-desk v3                                       | 1         |
+| claude-1-100k, claude-2-100k                                                        | 1         |
+| zhipu-chatglm-turbo, zhipu-chatglm-pro, zhipu-chatglm-std                           | 1         |
+| stable-diffusion, midjourney, midjourney-fast, midjourney-turbo                     | 1         |
+| llama-2-70b, llama-2-13b, llama-2-7b, code-llama-34b, code-llama-13b, code-llama-7b | 1         |
+| gpt-4, gpt-4-turbo, gpt-4-v, gpt-4-dalle, dall-e-3                                  | 5         |
+| gpt-4-32k                                                                           | 50        |
 
 {% hint style="success" %}
 除此之外其他模型均无最低余额限制
