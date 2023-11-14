@@ -32,7 +32,7 @@ GPT-4 32K 模型点数消耗较大，使用 GPT-4 1106 Preview 也是一个不�
 Claude 100k 模型对学生认证者，高级版及以上订阅每日 100 次请求免费。
 {% endhint %}
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-1, claude-2</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-1-100k, claude-2-100k</td><td><a href="https://anthropic.com/pricing/">官网</a> 6折</td><td>0.8 * 0.6</td><td>2.7 * 0.6</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-1, claude-2</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-1-100k, claude-2-100k</td><td>对齐<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.8</td><td>2.7</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
 
 ### SparkDesk 讯飞星火
 
