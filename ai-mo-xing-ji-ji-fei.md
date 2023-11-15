@@ -74,19 +74,23 @@ LLaMa 模型不保证高速和稳定性，吐字速度随当前可用性能影�
 
 <table><thead><tr><th>模型</th><th>费率</th><th width="138">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>hunyuan</td><td>对齐<a href="https://cloud.tencent.com/document/product/1729/97731">官网</a>计费</td><td>1</td><td>1</td></tr></tbody></table>
 
+### 360 智脑
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="138">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>360-gpt-v9</td><td>对齐<a href="https://ai.360.com/platform/limit">官网</a>计费</td><td>0.12</td><td>0.12</td></tr></tbody></table>
+
 ## 最低余额限制
 
 为了防止超出余额的部分过多，同时为了防止滥用，我们定义了特定模型的最低余额，当大于等于该余额时，可发起请求（联系我们可申请溢价）：
 
-| 模型                                                                                                           | 最低 nio 点数 |
-| ------------------------------------------------------------------------------------------------------------ | --------- |
-| spark-desk v1.5, spark-desk v2, spark-desk v3, qwen-turbo, qwen-turbo-net, qwen-plus, qwen-plus-net, hunyuan | 1         |
-| claude-1-100k, claude-2-100k                                                                                 | 1         |
-| zhipu-chatglm-turbo, zhipu-chatglm-pro, zhipu-chatglm-std                                                    | 1         |
-| stable-diffusion, midjourney, midjourney-fast, midjourney-turbo                                              | 1         |
-| llama-2-70b, llama-2-13b, llama-2-7b, code-llama-34b, code-llama-13b, code-llama-7b                          | 1         |
-| gpt-4, gpt-4-turbo, gpt-4-v, gpt-4-dalle, dall-e-3                                                           | 5         |
-| gpt-4-32k                                                                                                    | 50        |
+| 模型                                                                                                                       | 最低 nio 点数 |
+| ------------------------------------------------------------------------------------------------------------------------ | --------- |
+| spark-desk v1.5, spark-desk v2, spark-desk v3, qwen-turbo, qwen-turbo-net, qwen-plus, qwen-plus-net, hunyuan, 360-gpt-v9 | 1         |
+| claude-1-100k, claude-2-100k                                                                                             | 1         |
+| zhipu-chatglm-turbo, zhipu-chatglm-pro, zhipu-chatglm-std                                                                | 1         |
+| stable-diffusion, midjourney, midjourney-fast, midjourney-turbo                                                          | 1         |
+| llama-2-70b, llama-2-13b, llama-2-7b, code-llama-34b, code-llama-13b, code-llama-7b                                      | 1         |
+| gpt-4, gpt-4-turbo, gpt-4-v, gpt-4-dalle, dall-e-3                                                                       | 5         |
+| gpt-4-32k                                                                                                                | 50        |
 
 {% hint style="success" %}
 除此之外其他模型均无最低余额限制
