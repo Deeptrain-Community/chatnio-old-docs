@@ -29,10 +29,10 @@ GPT-4 32K 模型点数消耗较大，使用 GPT-4 1106 Preview 也是一个不�
 ### Claude
 
 {% hint style="success" %}
-Claude 100k 模型对学生认证者，高级版及以上订阅每日 100 次请求免费。
+Claude 100k（即 claude-2） 模型对学生认证者，高级版及以上订阅每日 100 次请求免费。
 {% endhint %}
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-1, claude-2</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-1-100k, claude-2-100k</td><td>对齐<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.8</td><td>2.7</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-1-100k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-2</td><td>对齐<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.8</td><td>2.7</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
 
 ### SparkDesk 讯飞星火
 
@@ -78,19 +78,28 @@ LLaMa 模型不保证高速和稳定性，吐字速度随当前可用性能影�
 
 <table><thead><tr><th>模型</th><th>费率</th><th width="138">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>360-gpt-v9</td><td>对齐<a href="https://ai.360.com/platform/limit">官网</a>计费</td><td>0.12</td><td>0.12</td></tr></tbody></table>
 
+### **百川 AI**
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="138">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>baichuan-53b</td><td>对齐<a href="https://platform.baichuan-ai.com/price">官网</a>计费</td><td>0.2</td><td>0.2</td></tr></tbody></table>
+
+### 火山方舟（抖音豆包）
+
+<table><thead><tr><th>模型</th><th>费率</th><th width="138">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>skylark-lite-public</td><td>对齐<a href="https://www.volcengine.com/docs/82379/1099320">官网</a>计费</td><td>0.04</td><td>0.04</td></tr><tr><td>skylark-plus-public</td><td>对齐<a href="https://www.volcengine.com/docs/82379/1099320">官网</a>计费</td><td>0.08</td><td>0.08</td></tr><tr><td>skylark-pro-public</td><td>对齐<a href="https://www.volcengine.com/docs/82379/1099320">官网</a>计费</td><td>0.11</td><td>0.11</td></tr><tr><td>skylark-chat</td><td>对齐<a href="https://www.volcengine.com/docs/82379/1099320">官网</a>计费</td><td>0.11</td><td>0.11</td></tr></tbody></table>
+
+
+
 ## 最低余额限制
 
 为了防止超出余额的部分过多，同时为了防止滥用，我们定义了特定模型的最低余额，当大于等于该余额时，可发起请求（联系我们可申请溢价）：
 
-| 模型                                                                                                                       | 最低 nio 点数 |
-| ------------------------------------------------------------------------------------------------------------------------ | --------- |
-| spark-desk v1.5, spark-desk v2, spark-desk v3, qwen-turbo, qwen-turbo-net, qwen-plus, qwen-plus-net, hunyuan, 360-gpt-v9 | 1         |
-| claude-1-100k, claude-2-100k                                                                                             | 1         |
-| zhipu-chatglm-turbo, zhipu-chatglm-pro, zhipu-chatglm-std                                                                | 1         |
-| stable-diffusion, midjourney, midjourney-fast, midjourney-turbo                                                          | 1         |
-| llama-2-70b, llama-2-13b, llama-2-7b, code-llama-34b, code-llama-13b, code-llama-7b                                      | 1         |
-| gpt-4, gpt-4-turbo, gpt-4-v, gpt-4-dalle, dall-e-3                                                                       | 5         |
-| gpt-4-32k                                                                                                                | 50        |
+| 模型                                                 | 最低 nio 点数 |
+| -------------------------------------------------- | --------- |
+| spark-desk, qwen, hunyuan, 360 系                   | 1         |
+| llama, claude 系                                    | 1         |
+| chatglm, baichuan, skylark 系                       | 1         |
+| stable-diffusion, midjourney 系                     | 1         |
+| gpt-4, gpt-4-turbo, gpt-4-v, gpt-4-dalle, dall-e-3 | 5         |
+| gpt-4-32k                                          | 50        |
 
 {% hint style="success" %}
 除此之外其他模型均无最低余额限制
