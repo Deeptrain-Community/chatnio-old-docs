@@ -52,9 +52,7 @@ openai.api_key = "<Your Api-Key>"
 
 3. **LobeChat**&#x20;
 
-> 当前不支持 Function Call 功能，敬请期待
-
-
+* 设置中更改接入点为 **https://api.chatnio.net/v1**
 
 4. **ChatBox**
 
