@@ -32,6 +32,10 @@
 介于 0 \~ 999 之间的整数
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="level" type="Integer" required="true" %}
+订阅级别
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Pay Successfully" %}
 ```json
 {

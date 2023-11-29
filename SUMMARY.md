@@ -14,6 +14,6 @@
   * [⏱ 对话](kai-fa-zhe-zi-yuan/api-reference/dui-hua.md)
   * [🙌 附加功能](kai-fa-zhe-zi-yuan/api-reference/fu-jia-gong-neng/README.md)
     * [💡 项目生成](kai-fa-zhe-zi-yuan/api-reference/fu-jia-gong-neng/xiang-mu-sheng-cheng.md)
-    * [🍏 卡片](kai-fa-zhe-zi-yuan/api-reference/fu-jia-gong-neng/ka-pian.md)
+    * [🍏 卡片（已废弃）](kai-fa-zhe-zi-yuan/api-reference/fu-jia-gong-neng/ka-pian.md)
   * [💰 余额](kai-fa-zhe-zi-yuan/api-reference/pets.md)
   * [🎁 订阅和礼包](kai-fa-zhe-zi-yuan/api-reference/ding-yue-he-li-bao.md)
