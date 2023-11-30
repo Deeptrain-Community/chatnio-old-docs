@@ -28,3 +28,27 @@ layout:
 接下来，你可以通过左边的侧栏浏览本站目录，查找你需要的信息，如本站点未能解决你的疑问，请[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 
 如果你在使用窄屏设备浏览本站，侧栏没有显示出来，请点击左上角 “三个杠” 呼出侧栏。
+
+#### AI 模型计费
+
+{% content-ref url="ai-mo-xing-ji-ji-fei.md" %}
+[ai-mo-xing-ji-ji-fei.md](ai-mo-xing-ji-ji-fei.md)
+{% endcontent-ref %}
+
+#### 常见问题解答
+
+{% content-ref url="chang-jian-wen-ti-jie-da.md" %}
+[chang-jian-wen-ti-jie-da.md](chang-jian-wen-ti-jie-da.md)
+{% endcontent-ref %}
+
+#### 开放 API & SDKs
+
+{% content-ref url="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md" %}
+[api-kuai-su-ru-men.md](kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md)
+{% endcontent-ref %}
+
+#### 接口参考
+
+{% content-ref url="kai-fa-zhe-zi-yuan/api-reference/" %}
+[api-reference](kai-fa-zhe-zi-yuan/api-reference/)
+{% endcontent-ref %}
