@@ -79,7 +79,7 @@ openai.api_key = "<Your Api-Key>"
 
 * 代理设置为 **https://api.chatnio.net**
 
-5. GPT-Academic
+5. **GPT-Academic**
 
 * 配置中自定义 Key 格式设置为：`CUSTOM_API_KEY_PATTERN = "sk-[a-zA-Z0-9]{64}$"`
 * 配置中增加 URL 重定向：`API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatnio.net/v1/chat/completions"}`
