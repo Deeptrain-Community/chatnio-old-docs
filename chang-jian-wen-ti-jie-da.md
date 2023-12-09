@@ -79,21 +79,25 @@ openai.api_key = "<Your Api-Key>"
 
 * 代理设置为 **https://api.chatnio.net**
 
+5. GPT-Academic
 
+* 配置中自定义 Key 格式设置为：`CUSTOM_API_KEY_PATTERN = "sk-[a-zA-Z0-9]{64}$"`
+* 配置中增加 URL 重定向：`API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://api.chatnio.net/v1/chat/completions"}`
+* 填写 API Key 至 `API_KEY`
 
-5. **ChatGPT Sidebar**
+6. **ChatGPT Sidebar**
 
 * 接入点设置为 **https://api.chatnio.net**
 
 
 
-6. **EasyCode**
+7. **EasyCode**
 
 * 自定义服务器地址设置为 **https://api.chatnio.net/v1/chat/completions**
 
 
 
-7. **Fystart**
+8. **Fystart**
 
 * OpenAI 接入点设置为 **wss://api.chatnio.net**
 
