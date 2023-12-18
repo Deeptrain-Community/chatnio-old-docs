@@ -7,14 +7,12 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 ## 计费详情
 
 {% hint style="info" %}
-**1** CNY = **10** Nio 点数
+**1** CNY = **10** Nio 点数， USD 对 CNY 汇率为 1 : 7。
+
+**订阅的按次配额在 API 中转中无法适用，中转仅支持弹性计费。**
 {% endhint %}
 
 ### OpenAI
-
-{% hint style="success" %}
-GPT 4 (包括 1106, GPT-4 Vision, GPT-4 DALLE3) 对高级版及以上订阅每日前 100 次请求免费
-{% endhint %}
 
 <table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo (包括1106)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dall-e-2 (512x512)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dall-e-3 (HD 1024x1024)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-4-free</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-fast</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.105 * 0.6</td><td>0.215 * 0.6</td></tr><tr><td>gpt-3.5-turbo-16k-fast</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.21 * 0.6</td><td>0.43 * 0.6</td></tr><tr><td>gpt-4, gpt-4-v, gpt-4-dalle</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>2.1 * 0.6</td><td>4.3 * 0.6</td></tr><tr><td>gpt-4-1106-preview, gpt-4-vision-preview</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.7 * 0.6</td><td>2.1 * 0.6</td></tr><tr><td>gpt-4-32k</td><td><a href="https://openai.com/pricing">官网</a> 8折</td><td>4.2 * 0.8</td><td>8.6 * 0.8</td></tr></tbody></table>
 
@@ -36,11 +34,11 @@ GPT 4 Free 渠道由 Azure GPT4, Github Copilot 逆向, OpenAI Plus 组成，完
 
 ### Claude
 
-{% hint style="success" %}
-Claude 100k（即 claude-2） 模型对学生认证者，高级版及以上订阅每日 100 次请求免费。
-{% endhint %}
-
 <table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>claude-1-100k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>claude-2, claude-2.1</td><td>对齐<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.8</td><td>2.7</td></tr><tr><td>claude-slack</td><td>免费（不稳定）</td><td>0</td><td>0</td></tr></tbody></table>
+
+{% hint style="info" %}
+Claude 2 为 100k 上下文，Claude 2.1 为 200k 上下文，Claude 全系并发较低，出现 403, 503 等报错为正常上游速率限制情况。
+{% endhint %}
 
 ### SparkDesk 讯飞星火
 
