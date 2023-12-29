@@ -12,16 +12,18 @@ description: chatnio.net 提供的模型物美价廉，这是其价格表。
 **订阅的按次配额在 API 中转中无法适用，中转仅支持弹性计费。**
 {% endhint %}
 
-### OpenAI
+### OpenAI / Azure OpenAI
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo (包括1106)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dall-e-2 (512x512)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dall-e-3 (HD 1024x1024)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-fast</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.105 * 0.6</td><td>0.215 * 0.6</td></tr><tr><td>gpt-3.5-turbo-16k-fast</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.21 * 0.6</td><td>0.43 * 0.6</td></tr><tr><td>gpt-4, gpt-4-v, gpt-4-dalle</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>2.1 * 0.6</td><td>4.3 * 0.6</td></tr><tr><td>gpt-4-1106-preview, gpt-4-vision-preview</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.7 * 0.6</td><td>2.1 * 0.6</td></tr><tr><td>gpt-4-32k</td><td><a href="https://openai.com/pricing">官网</a> 8折</td><td>4.2 * 0.8</td><td>8.6 * 0.8</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo (包括1106)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dall-e-2 (512x512)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>dall-e-3 (HD 1024x1024)</td><td>免费</td><td>0</td><td>0</td></tr><tr><td>gpt-3.5-turbo-fast</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.105 * 0.6</td><td>0.215 * 0.6</td></tr><tr><td>gpt-3.5-turbo-16k-fast</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.21 * 0.6</td><td>0.43 * 0.6</td></tr><tr><td>gpt-4, gpt-4-v, gpt-4-dalle</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>2.1 * 0.6</td><td>4.3 * 0.6</td></tr><tr><td>gpt-4-1106-preview, gpt-4-vision-preview</td><td><a href="https://openai.com/pricing">官网</a> 6折</td><td>0.7 * 0.6</td><td>2.1 * 0.6</td></tr><tr><td>gpt-4-32k</td><td><a href="https://openai.com/pricing">官网</a> 8折</td><td>4.2 * 0.8</td><td>8.6 * 0.8</td></tr><tr><td>azure-gpt-3.5-turbo</td><td>0.4 元 1 刀 (官网 17 分之一)</td><td>0.006</td><td>0.008</td></tr><tr><td>azure-gpt-3.5-turbo-16k</td><td>0.4 元 1 刀 (官网 17 分之一)</td><td>0.012</td><td>0.016</td></tr><tr><td>azure-gpt-4</td><td>0.8 元 1 刀 (官网 9 分之一)</td><td>0.240</td><td>0.480</td></tr><tr><td>azure-gpt-4-32k</td><td>0.8 元 1 刀 (官网 9 分之一)</td><td>0.480</td><td>0.960</td></tr></tbody></table>
+
+
 
 {% hint style="warning" %}
 GPT 3.5 Fast 系列支持高并发，保证稳定性。
 
 GPT-4 32K 模型点数消耗较大，使用 GPT-4 1106 Preview （GPT 4 Turbo 128k）也是一个不错的选择。
 
-GPT-4 Vision Preview 已做好格式兼容，按照通用格式调用即可（在任何地方输入 url 即可），无需再适配进行格式。
+GPT-4 Vision Preview 已做好格式兼容，按照通用格式调用即可（在任何地方输入 url 即可），无需再适配进行格式。&#x20;
 {% endhint %}
 
 ### AI 绘图
