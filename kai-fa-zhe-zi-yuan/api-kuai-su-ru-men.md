@@ -29,7 +29,7 @@ coverY: 0
 
 [Python SDK](https://github.com/Deeptrain-Community/chatnio-api-python)
 
-[Nodejs SDK](https://github.com/Deeptrain-Community/chatnio-api-node)
+[JavaScript SDK](https://github.com/Deeptrain-Community/chatnio-api-node) (for browser)
 
 [Golang SDK](https://github.com/Deeptrain-Community/chatnio-api-go)
 
