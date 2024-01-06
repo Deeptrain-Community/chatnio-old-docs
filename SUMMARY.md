@@ -1,9 +1,9 @@
 # Table of contents
 
 * [👋 欢迎来到 Chat Nio 文档站！](README.md)
-* [📞 与我们联系](yu-wo-men-lian-xi.md)
-* [💰 弹性计费价格表](ai-mo-xing-ji-ji-fei.md)
+* [💰 AI 模型计费](ai-mo-xing-ji-ji-fei.md)
 * [❓ 常见问题解答](chang-jian-wen-ti-jie-da.md)
+* [📞 与我们联系](yu-wo-men-lian-xi.md)
 
 ## 👩💻 开发者资源
 
