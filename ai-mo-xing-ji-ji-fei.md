@@ -28,6 +28,10 @@ GPT-4 Vision Preview 已做好格式兼容，按照通用格式调用即可（�
 
 ### AI 绘图
 
+{% hint style="danger" %}
+Midjourney 系因封号严重暂不提供服务
+{% endhint %}
+
 <table><thead><tr><th width="194">模型</th><th>费率</th><th>价格（点数）</th><th width="234">信息</th></tr></thead><tbody><tr><td>dall-e-2（不稳定）</td><td>免费</td><td>0</td><td>512x512</td></tr><tr><td>dall-e-3</td><td>低于<a href="https://openai.com/pricing">官网</a>计费</td><td>5</td><td>HD 1024x1024</td></tr><tr><td>midjourney</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>0.1</td><td>Relax 模式</td></tr><tr><td>midjourney-fast</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>0.5</td><td>Fast 模式</td></tr><tr><td>midjourney-turbo</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>1</td><td>Turbo 模式</td></tr><tr><td>stable-diffusion</td><td>算力平均值</td><td>0.25</td><td>Stable Diffusion XL, POE 逆向 + Hugging Face</td></tr></tbody></table>
 
 ### Claude
