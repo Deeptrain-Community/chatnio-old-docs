@@ -2,7 +2,7 @@
 description: 常见问题 Q & A
 ---
 
-# 😲 常见问题解答
+# ❓ 常见问题解答
 
 ### 🍀 AI 模型相关
 
@@ -32,7 +32,7 @@ Tokenizer 的计算方法请查看 OpenAI Cookbox，计算消息的 Token 数量
 Tiktoken Notebook
 {% endembed %}
 
-### 🔨 常见错误示例
+### 🔨 常见报错原因列表
 
 * 504 Gateway Timeout：网关超时，服务异常（常发生于服务器满负载运行时或者 CDN 网关超过最大 Timeout），请联系网站相关人员解决。
 * 503 Service Unavailable：服务暂时不可用。常发生于上游流量过大无法提供服务（如 Poe 逆向）。
@@ -43,8 +43,6 @@ Tiktoken Notebook
 * 401 Unauthorized：账号池轮询到了被封禁 / 不存在的账户，请刷新重试。
 * 400 Bad Request：错误请求。参数设置不正确，或者上下文 Token 大小超过该模型的最大上下文。
 
-
-
 ### :gear: 工具设置
 
 1. **ChatGPT Next Web**
@@ -53,10 +51,7 @@ Tiktoken Notebook
 
 1. API Key 从下拉菜单中的 **API 设置** 中获取
 2. 接口地址填写 **https://api.chatnio.net**
-
-
-
-2. **OpenAI SDKs** (以Python为例)
+3. **OpenAI SDKs** (以Python为例)
 
 ```python
 import openai
@@ -65,13 +60,11 @@ openai.base_url = "https://api.chatnio.net/v1/"
 openai.api_key = "<Your Api-Key>"
 ```
 
-
-
 3. **One API**
 
 * 设置 **OpenAI** 格式，代理地址为 **https://api.chatnio.net**
 
-3. **LobeChat**&#x20;
+3. **LobeChat**
 
 * 设置中更改接入点为 **https://api.chatnio.net/v1**
 
@@ -89,15 +82,10 @@ openai.api_key = "<Your Api-Key>"
 
 * 接入点设置为 **https://api.chatnio.net**
 
-
-
 7. **EasyCode**
 
 * 自定义服务器地址设置为 **https://api.chatnio.net/v1/chat/completions**
 
-
-
 8. **Fystart**
 
 * OpenAI 接入点设置为 **wss://api.chatnio.net**
-
