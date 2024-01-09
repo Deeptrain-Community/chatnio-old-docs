@@ -21,9 +21,11 @@ layout:
 
 # 👋 欢迎来到 Chat Nio 文档站！
 
-相信 ChatNio 还有很多仍待改进的地方。我们的平台所有代码以 Apache-2.0 协议开源。如果你有兴趣，欢迎来为 ChatNio 添砖加瓦！
+与此同时我们同时以 Apache-2.0 协议开放开源版。如果你有兴趣，欢迎来为 Chat Nio 添砖加瓦！
 
 {% embed url="https://github.com/Deeptrain-Community/chatnio" %}
+开源版 GitHub
+{% endembed %}
 
 接下来，你可以通过左边的侧栏浏览本站目录，查找你需要的信息，如本站点未能解决你的疑问，请[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 
@@ -41,6 +43,12 @@ layout:
 [chang-jian-wen-ti-jie-da.md](chang-jian-wen-ti-jie-da.md)
 {% endcontent-ref %}
 
+## 常见项目配置
+
+{% content-ref url="chang-jian-xiang-mu-pei-zhi.md" %}
+[chang-jian-xiang-mu-pei-zhi.md](chang-jian-xiang-mu-pei-zhi.md)
+{% endcontent-ref %}
+
 #### 开放 API & SDKs
 
 {% content-ref url="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md" %}
@@ -51,4 +59,12 @@ layout:
 
 {% content-ref url="kai-fa-zhe-zi-yuan/api-reference/" %}
 [api-reference](kai-fa-zhe-zi-yuan/api-reference/)
+{% endcontent-ref %}
+
+
+
+如果您有兴趣获得 Chat Nio 商业版项目授权，请联系我们。
+
+{% content-ref url="yu-wo-men-lian-xi.md" %}
+[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md)
 {% endcontent-ref %}

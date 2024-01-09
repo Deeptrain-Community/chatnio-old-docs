@@ -3,7 +3,7 @@
 * [👋 欢迎来到 Chat Nio 文档站！](README.md)
 * [🧐 AI 模型计费](ai-mo-xing-ji-ji-fei.md)
 * [❓ 常见问题解答](chang-jian-wen-ti-jie-da.md)
-* [🛠 项目应用配置](xiang-mu-ying-yong-pei-zhi.md)
+* [🛠 常见项目配置](chang-jian-xiang-mu-pei-zhi.md)
 * [📞 与我们联系](yu-wo-men-lian-xi.md)
 
 ## 👩💻 开发者资源
