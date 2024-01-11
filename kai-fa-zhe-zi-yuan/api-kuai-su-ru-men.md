@@ -33,6 +33,8 @@ coverY: 0
 
 [Golang SDK](https://github.com/Deeptrain-Community/chatnio-api-go)
 
+[Java SDK](https://github.com/hujiayucc/ChatNio-SDK-Java) (感谢 [@hujiayucc](https://github.com/hujiayucc))
+
 ## API 接口参考
 
 {% content-ref url="api-reference/" %}
