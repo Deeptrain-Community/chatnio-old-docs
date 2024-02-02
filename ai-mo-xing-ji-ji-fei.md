@@ -34,6 +34,8 @@ GPT-4 Vision Preview 已做好格式兼容，按照通用格式调用即可（�
 
 {% hint style="info" %}
 Claude 2 为 100k 上下文，Claude 2.1 为 200k 上下文，Claude 全系并发较低，出现 403, 503 等报错为正常上游速率限制情况。
+
+Claude Slack 因为 Slack 政策调整现已关闭使用。
 {% endhint %}
 
 ### SparkDesk 讯飞星火
