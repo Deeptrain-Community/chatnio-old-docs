@@ -24,9 +24,7 @@ GPT-4 Vision Preview 已做好格式兼容，按照通用格式调用即可（�
 
 ### AI 绘图
 
-{% hint style="danger" %}
-Midjourney 系因封号严重暂不提供服务
-{% endhint %}
+
 
 <table><thead><tr><th width="194">模型</th><th>费率</th><th>价格（点数）</th><th width="234">信息</th></tr></thead><tbody><tr><td>dall-e-2（不稳定）</td><td>免费</td><td>0</td><td>512x512</td></tr><tr><td>dall-e-3</td><td>低于<a href="https://openai.com/pricing">官网</a>计费</td><td>5</td><td>HD 1024x1024</td></tr><tr><td>midjourney</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>0.1</td><td>Relax 模式</td></tr><tr><td>midjourney-fast</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>0.5</td><td>Fast 模式</td></tr><tr><td>midjourney-turbo</td><td><a href="https://docs.midjourney.com/docs/plans">官网</a>平均计费</td><td>1</td><td>Turbo 模式</td></tr><tr><td>stable-diffusion</td><td>算力平均值</td><td>0.25</td><td>Stable Diffusion XL, POE 逆向 + Hugging Face</td></tr></tbody></table>
 
@@ -50,9 +48,9 @@ Claude 2 为 100k 上下文，Claude 2.1 为 200k 上下文，Claude 全系并�
 
 <table><thead><tr><th>模型</th><th>费率</th><th width="131">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>qwen-plus</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.2</td><td>0.2</td></tr><tr><td>qwen-plus-net</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.2</td><td>0.2</td></tr><tr><td>qwen-turbo</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.08</td><td>0.08</td></tr><tr><td>qwen-turbo-net</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.08</td><td>0.08</td></tr></tbody></table>
 
-### Google PaLM2
+### Google Gemini / PaLM2
 
-<table><thead><tr><th>模型</th><th width="191">费率</th><th width="161">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>chat-bison-001</td><td>免费</td><td>0</td><td>0</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th width="191">费率</th><th width="161">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td><p>chat-bison-001,</p><p>gemini-pro, </p><p>gemini-pro-vision</p></td><td>免费</td><td>0</td><td>0</td></tr></tbody></table>
 
 {% hint style="info" %}
 PaLM2 不支持包括中文在内的语言，且返回为“伪”流式传输。
