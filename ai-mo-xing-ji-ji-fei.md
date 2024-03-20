@@ -102,3 +102,10 @@ LLaMa 模型不保证高速和稳定性，吐字速度随当前可用性能影�
 >
 > 对于不计费模型，无最低余额限制。
 
+### Token 计算方式
+
+Chat Nio 计费完全按照 OpenAI Tiktoken 计费。了解更多实现步骤请前往：
+
+{% content-ref url="chang-jian-wen-ti-jie-da.md" %}
+[chang-jian-wen-ti-jie-da.md](chang-jian-wen-ti-jie-da.md)
+{% endcontent-ref %}
