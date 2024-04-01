@@ -23,11 +23,9 @@ layout:
 
 与此同时我们同时以 Apache-2.0 协议开放开源版。如果你有兴趣，欢迎来为 Chat Nio 添砖加瓦！
 
-{% embed url="https://github.com/Deeptrain-Community/chatnio" %}
-开源版 GitHub
-{% endembed %}
-
 接下来，你可以通过左边的侧栏浏览本站目录，查找你需要的信息，如本站点未能解决你的疑问，请[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
+
+{% embed url="https://github.com/Deeptrain-Community/chatnio" %}
 
 如果你在使用窄屏设备浏览本站，侧栏没有显示出来，请点击左上角 “三个杠” 呼出侧栏。
 
