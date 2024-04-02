@@ -40,7 +40,7 @@ Claude Slack 因为 Slack 政策调整现已关闭使用。
 
 ### ChatGLM 智谱清言
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="147">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>zhipu-chatglm-turbo</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr><tr><td>zhipu-chatglm-pro（废弃）</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.1</td><td>0.1</td></tr><tr><td>zhipu-chatglm-std（废弃）</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr><tr><td>zhipu-chatglm-lite（废弃）</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="147">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>glm-4</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>1</td><td>1</td></tr><tr><td>glm-4v</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>1</td><td>1</td></tr><tr><td>glm-3-turbo</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr><tr><td>zhipu-chatglm-turbo (智谱v3 格式, 同 glm-3-turbo)</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr><tr><td>zhipu-chatglm-pro（废弃）</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.1</td><td>0.1</td></tr><tr><td>zhipu-chatglm-std（废弃）</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr><tr><td>zhipu-chatglm-lite（废弃）</td><td>对齐<a href="https://open.bigmodel.cn/pricing">官网</a>计费</td><td>0.05</td><td>0.05</td></tr></tbody></table>
 
 ### DashScope 通义千问
 
