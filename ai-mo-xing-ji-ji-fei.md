@@ -30,7 +30,7 @@ GPT 3.5 Free 系列不保证稳定性，不支持 Function Calling。
 
 ### Claude
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td><p>claude-1-100k, claude-1, </p><p>claude-1.3, </p><p>cluade-slack (废弃)</p></td><td>对齐<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.08</td><td>0.27</td></tr><tr><td>claude-2, claude-2.1</td><td>对齐<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.8</td><td>2.7</td></tr><tr><td>claude-3-opus-20240229</td><td>价格同 gpt-4-32k</td><td></td><td></td></tr><tr><td>claude-3-sonnet-20240229</td><td>价格同 gpt-4</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="128">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td><p>claude-1-100k, claude-1, </p><p>claude-1.3, </p><p>cluade-slack (废弃)</p></td><td>对齐<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.08</td><td>0.27</td></tr><tr><td>claude-2, claude-2.1</td><td>对齐<a href="https://anthropic.com/pricing/">官网</a>计费</td><td>0.8</td><td>2.7</td></tr><tr><td>claude-3-opus-20240229</td><td>价格同 gpt-4-32k</td><td></td><td></td></tr><tr><td>claude-3-sonnet-20240229</td><td>价格同 gpt-4</td><td></td><td></td></tr><tr><td>claude-3-haiku-20240307</td><td>价格同 gpt-3.5-turbo-16k</td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 Claude 3 与 Claude 2.1 为 200k 上下文，Claude 2 为 100k 上下文，Claude 全系并发较低，出现 403, 503 等报错为正常上游速率限制情况。
