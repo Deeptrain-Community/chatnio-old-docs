@@ -28,7 +28,7 @@ layout:
 * 一般用户，可以直接使用**主站**：[chatnio.net](https://chatnio.net/) ，以非常实惠的价格体验到各种AI模型。
 * 追求 稳定、高速 的用户，可以使用**Mahiro官转站**：[o.chatnio.net](https://o.chatnio.net/)，仅通过 openai 官方API提供服务，稳定性、速度有保证，但价格没有主站便宜。
 
-我们还顺带部署了[nextweb项目](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)：[nextweb.chatnio.net](https://nextweb.chatnio.net/#/settings) ，有需要的用户可以使用。
+我们还顺带部署了[nextweb项目](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)：[nextweb.chatnio.net](https://nextweb.chatnio.net) ，有需要的用户可以使用。
 {% endtab %}
 
 {% tab title="2. 私有化部署类" %}
