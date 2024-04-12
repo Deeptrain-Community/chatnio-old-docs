@@ -48,6 +48,7 @@ layout:
 
 * **商业版**：闭源的私有化部署版本。
 * 额外增添了 支付、内容审查、模型速率设置、利润分销、自定义资源包 等功能。
+* 额外增添的功能详情请参阅 [Deeptrain-Community/chatnio/issues](https://github.com/Deeptrain-Community/chatnio/issues) ，其中带有 business 标签的 issue 为商业版独享功能。
 
 如果你有兴趣购买 Chat Nio 商业版，请 [yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 {% endtab %}
@@ -57,4 +58,4 @@ layout:
 
 接下来，你可以浏览本站剩余部分，查找你需要的信息，如本站点未能解决你的疑问，你可以[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 
-<table data-column-title-hidden data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="ai-mo-xing-ji-ji-fei.md">ai-mo-xing-ji-ji-fei.md</a></td><td><a href="ai-mo-xing-ji-ji-fei.md">ai-mo-xing-ji-ji-fei.md</a></td></tr><tr><td><a href="chang-jian-wen-ti-jie-da.md">chang-jian-wen-ti-jie-da.md</a></td><td><a href="chang-jian-wen-ti-jie-da.md">chang-jian-wen-ti-jie-da.md</a></td></tr><tr><td><a href="chang-jian-xiang-mu-pei-zhi.md">chang-jian-xiang-mu-pei-zhi.md</a></td><td><a href="chang-jian-xiang-mu-pei-zhi.md">chang-jian-xiang-mu-pei-zhi.md</a></td></tr><tr><td><a href="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md">api-kuai-su-ru-men.md</a></td><td><a href="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md">api-kuai-su-ru-men.md</a></td></tr><tr><td><a href="yu-wo-men-lian-xi.md">yu-wo-men-lian-xi.md</a></td><td><a href="yu-wo-men-lian-xi.md">yu-wo-men-lian-xi.md</a></td></tr></tbody></table>
+<table data-column-title-hidden data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="ai-mo-xing-ji-ji-fei.md">ai-mo-xing-ji-ji-fei.md</a></td><td><a href="ai-mo-xing-ji-ji-fei.md">ai-mo-xing-ji-ji-fei.md</a></td></tr><tr><td><a href="chang-jian-wen-ti-jie-da.md">chang-jian-wen-ti-jie-da.md</a></td><td><a href="chang-jian-wen-ti-jie-da.md">chang-jian-wen-ti-jie-da.md</a></td></tr><tr><td><a href="chang-jian-xiang-mu-pei-zhi.md">chang-jian-xiang-mu-pei-zhi.md</a></td><td><a href="chang-jian-xiang-mu-pei-zhi.md">chang-jian-xiang-mu-pei-zhi.md</a></td></tr><tr><td><a href="yu-wo-men-lian-xi.md">yu-wo-men-lian-xi.md</a></td><td><a href="yu-wo-men-lian-xi.md">yu-wo-men-lian-xi.md</a></td></tr><tr><td><a href="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md">api-kuai-su-ru-men.md</a></td><td><a href="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md">api-kuai-su-ru-men.md</a></td></tr></tbody></table>
