@@ -8,7 +8,7 @@
 
 ## 👩‍💻 开发者资源
 
-* [🏃 通过 API / SDK 使用 ChatNio](kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md)
+* [🏃 通过 API / SDK 调用 ChatNio](kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md)
 * [📖 API 接口文档](kai-fa-zhe-zi-yuan/api-reference/README.md)
   * [😀 聊天](kai-fa-zhe-zi-yuan/api-reference/liao-tian.md)
   * [🌟 Key 中转](kai-fa-zhe-zi-yuan/api-reference/key-zhong-zhuan.md)
