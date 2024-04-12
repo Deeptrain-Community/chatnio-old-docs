@@ -48,7 +48,7 @@ layout:
 
 * **商业版**：闭源的私有化部署版本。
 * 额外增添了 支付、内容审查、模型速率设置、利润分销、自定义资源包 等功能。
-* 额外增添的功能详情请参阅 [Deeptrain-Community/chatnio/issues](https://github.com/Deeptrain-Community/chatnio/issues) ，其中带有 business 标签的 issue 为商业版独享功能。
+* 额外增添的功能，详情请参阅 [Deeptrain-Community/chatnio/issues](https://github.com/Deeptrain-Community/chatnio/issues) ，其中带有 business 标签的 issue 为商业版独享功能。
 
 如果你有兴趣购买 Chat Nio 商业版，请 [yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 {% endtab %}
