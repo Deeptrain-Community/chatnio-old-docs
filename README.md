@@ -54,6 +54,7 @@ layout:
 
 ***
 
-接下来，你可以通过左边的侧栏浏览本站目录，查找你需要的信息，如本站点未能解决你的疑问，你可以[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
+接下来，你可以浏览本站剩余部分，查找你需要的信息，如本站点未能解决你的疑问，你可以[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 
-如果你在使用窄屏设备浏览本站，侧栏没有显示出来，请点击左上角 “三个杠” 呼出侧栏。
+
+
