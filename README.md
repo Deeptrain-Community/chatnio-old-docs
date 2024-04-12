@@ -40,6 +40,8 @@ layout:
 * 仅包含基本功能，详见 [项目README](https://github.com/Deeptrain-Community/chatnio/blob/main/README\_zh-CN.md)。
 
 {% embed url="https://github.com/Deeptrain-Community/chatnio" fullWidth="false" %}
+可以用 docker compose 部署，很方便
+{% endembed %}
 
 * **商业版**：闭源的私有化部署版本。
 * 额外增添了 支付、内容审查、模型速率设置、利润分销、自定义资源包 等功能。
