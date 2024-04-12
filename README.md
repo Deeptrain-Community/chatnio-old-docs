@@ -2,6 +2,7 @@
 description: >-
   🚀 Chat Nio 是一个强大且功能丰富的 AI 聚合聊天平台，支持分布式流式传输，图像生成，对话跨设备自动同步和分享功能实现订阅和 Token
   弹性计费系统，Key 中转服务，多模型聚合支持等。实现联网搜索功能，自定义预设等功能。
+cover: .gitbook/assets/david-kidd-STWpM_WPrEs-unsplash.jpg
 coverY: 0
 layout:
   cover:
@@ -57,4 +58,3 @@ layout:
 接下来，你可以浏览本站剩余部分，查找你需要的信息，如本站点未能解决你的疑问，你可以[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 
 <table data-column-title-hidden data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="ai-mo-xing-ji-ji-fei.md">ai-mo-xing-ji-ji-fei.md</a></td><td><a href="ai-mo-xing-ji-ji-fei.md">ai-mo-xing-ji-ji-fei.md</a></td></tr><tr><td><a href="chang-jian-wen-ti-jie-da.md">chang-jian-wen-ti-jie-da.md</a></td><td><a href="chang-jian-wen-ti-jie-da.md">chang-jian-wen-ti-jie-da.md</a></td></tr><tr><td><a href="chang-jian-xiang-mu-pei-zhi.md">chang-jian-xiang-mu-pei-zhi.md</a></td><td><a href="chang-jian-xiang-mu-pei-zhi.md">chang-jian-xiang-mu-pei-zhi.md</a></td></tr><tr><td><a href="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md">api-kuai-su-ru-men.md</a></td><td><a href="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md">api-kuai-su-ru-men.md</a></td></tr><tr><td><a href="yu-wo-men-lian-xi.md">yu-wo-men-lian-xi.md</a></td><td><a href="yu-wo-men-lian-xi.md">yu-wo-men-lian-xi.md</a></td></tr></tbody></table>
-

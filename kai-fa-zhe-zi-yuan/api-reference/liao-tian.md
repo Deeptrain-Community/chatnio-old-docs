@@ -1,37 +1,29 @@
 # 😀 聊天
 
+## 聊天
 
+`CONNECT` `wss://api.chatnio.net/chat`
 
-{% swagger method="connect" path="/chat" baseUrl="wss://api.chatnio.net" summary="聊天" %}
-{% swagger-description %}
 \[**WebSocket**] 聊天
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="token" type="String" required="true" %}
-JWT Token / API Key (匿名: **anonymous**)
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="id" type="String " required="true" %}
-对话 ID [dui-hua.md](dui-hua.md "mention") （新建：**-1**）
-{% endswagger-parameter %}
+| Name                                    | Type    | Description                                          |
+| --------------------------------------- | ------- | ---------------------------------------------------- |
+| token<mark style="color:red;">\*</mark> | String  | JWT Token / API Key (匿名: **anonymous**)              |
+| id<mark style="color:red;">\*</mark>    | String  | 对话 ID [dui-hua.md](dui-hua.md "mention") （新建：**-1**） |
 
-{% swagger-parameter in="body" name="message" type="String" required="true" %}
-消息
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="model" type="String" required="true" %}
-AI 模型 [ai-mo-xing-ji-ji-fei.md](../../ai-mo-xing-ji-ji-fei.md "mention")
-{% endswagger-parameter %}
+| Name                                      | Type   | Description                                                              |
+| ----------------------------------------- | ------ | ------------------------------------------------------------------------ |
+| message<mark style="color:red;">\*</mark> | String | 消息                                                                       |
+| model<mark style="color:red;">\*</mark>   | String | AI 模型 [ai-mo-xing-ji-ji-fei.md](../../ai-mo-xing-ji-ji-fei.md "mention") |
+| web                                       | String | 是否开启联网功能（默认**关闭**）                                                       |
+| type                                      | String | 默认 **chat** 即可                                                           |
 
-{% swagger-parameter in="body" name="web" type="String" %}
-是否开启联网功能（默认**关闭**）
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="type" type="String" %}
-默认 **chat** 即可
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="WebSocket Stream Response" %}
+{% tabs %}
+{% tab title="200: OK WebSocket Stream Response" %}
 ```json
 {
     "message": " how",
@@ -40,8 +32,8 @@ AI 模型 [ai-mo-xing-ji-ji-fei.md](../../ai-mo-xing-ji-ji-fei.md "mention")
     "end": false
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 #### 连接示例
 
@@ -54,8 +46,7 @@ AI 模型 [ai-mo-xing-ji-ji-fei.md](../../ai-mo-xing-ji-ji-fei.md "mention")
 </strong><strong>&#x3C; RECV {"quota": 0, "keyword": "", "message": "Hello", "end": false}
 </strong><strong>&#x3C; RECV {"quota": 0.0034000003, "keyword": "", "message": "!", "end": false}
 </strong><strong>&#x3C; RECV {"quota": 0.0034000003, "keyword": "", "message": "", "end": true}
-</strong><strong>
-</strong><strong>* CONNECTION CLOSE
+</strong>
+<strong>* CONNECTION CLOSE
 </strong><strong>* CONNECTION CLOSE BY PEER
 </strong></code></pre>
-
