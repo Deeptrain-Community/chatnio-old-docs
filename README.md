@@ -25,32 +25,26 @@ layout:
 ### 哪款 Chat Nio 适合你？
 
 {% tabs %}
-{% tab title="1. 联网使用类" %}
-* 一般用户，可以直接使用**主站**：[chatnio.net](https://chatnio.net/) ，以非常实惠的价格体验到各种AI模型。
-* 追求 稳定、高速 的用户，可以使用**Mahiro官转站**：[o.chatnio.net](https://o.chatnio.net/)，仅通过 openai 官方API提供服务，稳定性、速度有保证，但价格没有主站便宜。
-
-我们还顺带部署了[nextweb项目](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)：[nextweb.chatnio.net](https://nextweb.chatnio.net) ，有需要的用户可以使用。
+{% tab title="1. 官方站用户" %}
+* **Chat Nio 主站**：[chatnio.net](https://chatnio.net/) ，以实惠的价格体验到各种 AI 大模型。
+* 追求稳定、高速的用户，可以使用**Mahiro 官转站**：[o.chatnio.net](https://o.chatnio.net/)，纯 OpenAI 官方 API 转发站。
 {% endtab %}
 
 {% tab title="2. 私有化部署类" %}
 {% hint style="info" %}
-私有化部署版本主要面向 **向别人提供AI聊天平台的站长** 提供，如你只是想体验AI，可以忽略这段内容 。
+私有化部署版本主要面向意向搭建 **AI 平台站长** 提供，如你只是想使用 Chat Nio 官方站，可以忽略这段内容。
 {% endhint %}
 
-* **开源版**：以 Apache-2.0 协议开源的私有化部署版本。
-* 仅包含基本功能，详见 [项目README](https://github.com/Deeptrain-Community/chatnio/blob/main/README\_zh-CN.md)。
-
-{% embed url="https://github.com/Deeptrain-Community/chatnio" %}
-可以用 docker compose 部署，很方便
-{% endembed %}
+* **开源版**：以 Apache-2.0 协议开源的版本。
+* 包含基础功能，详见 [Chat Nio 开源版](https://github.com/Deeptrain-Community/chatnio/blob/main/README\_zh-CN.md)。
 
 ***
 
-* **商业版**：闭源的私有化部署版本。
-* 额外增添了 支付、内容审查、模型速率设置、利润分销、自定义资源包 等功能。
-* 额外增添的功能列表请参阅 [Deeptrain-Community/chatnio/issues](https://github.com/Deeptrain-Community/chatnio/issues) ，其中带有 business 标签的 issue 为商业版独享功能。
+* **商业版**：闭源的私有化软件授权。
+* 额外增添了 支付、Midjourney Proxy Plus、内容审查、模型速率设置、利润分销、自定义资源包 等功能。
+* 额外增添的功能列表请参阅 [Chat Nio 商业版功能](https://github.com/Deeptrain-Community/chatnio/issues?q=label%3Abusiness+)
 
-如果你有兴趣购买 Chat Nio 商业版授权，请 [yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
+如果您有兴趣购买 Chat Nio 商业版授权，请 [yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 {% endtab %}
 {% endtabs %}
 
