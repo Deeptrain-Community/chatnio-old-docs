@@ -8,10 +8,10 @@
 
 ## 👩‍💻 开发者资源
 
-* [🏃 API 快速入门](kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md)
-* [📖 API 接口参考](kai-fa-zhe-zi-yuan/api-reference/README.md)
+* [🏃 通过 API / SDK 调用接口](kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md)
+* [📖 API 接口文档](kai-fa-zhe-zi-yuan/api-reference/README.md)
+  * [🌟 OpenAI API](kai-fa-zhe-zi-yuan/api-reference/key-zhong-zhuan.md)
   * [😀 聊天](kai-fa-zhe-zi-yuan/api-reference/liao-tian.md)
-  * [🌟 Key 中转](kai-fa-zhe-zi-yuan/api-reference/key-zhong-zhuan.md)
   * [⏱️ 对话](kai-fa-zhe-zi-yuan/api-reference/dui-hua.md)
   * [🙌 附加功能](kai-fa-zhe-zi-yuan/api-reference/fu-jia-gong-neng/README.md)
     * [💡 项目生成](kai-fa-zhe-zi-yuan/api-reference/fu-jia-gong-neng/xiang-mu-sheng-cheng.md)

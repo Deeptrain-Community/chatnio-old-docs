@@ -1,7 +1,7 @@
 ---
 description: >-
-  🚀 Chat Nio 是一个强大且功能丰富的 AI 聚合聊天平台，支持分布式流式传输，图像生成，对话跨设备自动同步和分享功能，实现订阅和 Token
-  弹性计费系统，Key 中转服务，多模型聚合支持等。实现联网搜索功能，AI 卡片，AI 项目生成器等功能。
+  🚀 Next Generation AI One-Stop Internationalization Solution. 🚀 下一代 AI 一站式 B/C 端解决方案，支持通用模型 ( OpenAI/Azure/Gemini/Claude/Midjourney 等) 聚合，支持对话分享，自定义预设，云端同步，模型市场，支持弹性计费和订阅计划模式，支持图片解析，支持联网搜索，支持模型缓存，丰富美观的后台管理与仪表盘数据统计。
+cover: .gitbook/assets/david-kidd-STWpM_WPrEs-unsplash.jpg
 coverY: 0
 layout:
   cover:
@@ -21,48 +21,34 @@ layout:
 
 # 👋 欢迎来到 Chat Nio 文档站！
 
-与此同时我们同时以 Apache-2.0 协议开放开源版。如果你有兴趣，欢迎来为 Chat Nio 添砖加瓦！
+### 哪款 Chat Nio 适合你？
 
-接下来，你可以通过左边的侧栏浏览本站目录，查找你需要的信息，如本站点未能解决你的疑问，请[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
+{% tabs %}
+{% tab title="1. 官方站用户" %}
+* **Chat Nio 主站**：[chatnio.net](https://chatnio.net) ，以实惠的价格体验到各种 AI 大模型。
+* 追求稳定、高速的用户，可以使用 **Mahiro 官转站**：[o.chatnio.net](https://o.chatnio.net)，纯 OpenAI 官方 API 转发站。
+{% endtab %}
 
-{% embed url="https://github.com/Deeptrain-Community/chatnio" %}
+{% tab title="2. 私有化部署类" %}
+{% hint style="info" %}
+私有化部署版本主要面向意向搭建 **AI 平台站长** 提供，如你只是想使用 Chat Nio 官方站，可以忽略这段内容。
+{% endhint %}
 
-如果你在使用窄屏设备浏览本站，侧栏没有显示出来，请点击左上角 “三个杠” 呼出侧栏。
+* **开源版**：以 `Apache-2.0` 协议开源的版本：
+* 包含基础功能，详见 [Chat Nio 开源版](https://github.com/Deeptrain-Community/chatnio/blob/main/README\_zh-CN.md)
 
-#### AI 模型计费
+***
 
-{% content-ref url="ai-mo-xing-ji-ji-fei.md" %}
-[ai-mo-xing-ji-ji-fei.md](ai-mo-xing-ji-ji-fei.md)
-{% endcontent-ref %}
+* **商业版**：闭源的私有化软件授权：
+* 额外增添了 支付、Midjourney Proxy Plus、内容审查、模型速率设置、利润分销、自定义资源包 等功能
+* 额外增添的功能列表请参阅 [Chat Nio 商业版功能](https://github.com/Deeptrain-Community/chatnio/issues?q=label%3Abusiness+)
 
-#### 常见问题解答
+👉 如果您有兴趣购买 Chat Nio 商业版授权，请 [yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
+{% endtab %}
+{% endtabs %}
 
-{% content-ref url="chang-jian-wen-ti-jie-da.md" %}
-[chang-jian-wen-ti-jie-da.md](chang-jian-wen-ti-jie-da.md)
-{% endcontent-ref %}
+***
 
-## 常见项目配置
+接下来，你可以浏览本站剩余部分，查找你需要的信息，如本站点未能解决你的疑问，你可以[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md "mention")。
 
-{% content-ref url="chang-jian-xiang-mu-pei-zhi.md" %}
-[chang-jian-xiang-mu-pei-zhi.md](chang-jian-xiang-mu-pei-zhi.md)
-{% endcontent-ref %}
-
-#### 开放 API & SDKs
-
-{% content-ref url="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md" %}
-[api-kuai-su-ru-men.md](kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md)
-{% endcontent-ref %}
-
-#### 接口参考
-
-{% content-ref url="kai-fa-zhe-zi-yuan/api-reference/" %}
-[api-reference](kai-fa-zhe-zi-yuan/api-reference/)
-{% endcontent-ref %}
-
-
-
-如果您有兴趣获得 Chat Nio 商业版项目授权，请联系我们。
-
-{% content-ref url="yu-wo-men-lian-xi.md" %}
-[yu-wo-men-lian-xi.md](yu-wo-men-lian-xi.md)
-{% endcontent-ref %}
+<table data-column-title-hidden data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="ai-mo-xing-ji-ji-fei.md">ai-mo-xing-ji-ji-fei.md</a></td><td><a href="ai-mo-xing-ji-ji-fei.md">ai-mo-xing-ji-ji-fei.md</a></td></tr><tr><td><a href="chang-jian-wen-ti-jie-da.md">chang-jian-wen-ti-jie-da.md</a></td><td><a href="chang-jian-wen-ti-jie-da.md">chang-jian-wen-ti-jie-da.md</a></td></tr><tr><td><a href="chang-jian-xiang-mu-pei-zhi.md">chang-jian-xiang-mu-pei-zhi.md</a></td><td><a href="chang-jian-xiang-mu-pei-zhi.md">chang-jian-xiang-mu-pei-zhi.md</a></td></tr><tr><td><a href="yu-wo-men-lian-xi.md">yu-wo-men-lian-xi.md</a></td><td><a href="yu-wo-men-lian-xi.md">yu-wo-men-lian-xi.md</a></td></tr><tr><td><a href="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md">api-kuai-su-ru-men.md</a></td><td><a href="kai-fa-zhe-zi-yuan/api-kuai-su-ru-men.md">api-kuai-su-ru-men.md</a></td></tr></tbody></table>

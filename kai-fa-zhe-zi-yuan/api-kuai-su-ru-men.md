@@ -5,13 +5,13 @@ cover: >-
 coverY: 0
 ---
 
-# 🏃 API 快速入门
+# 🏃 通过 API / SDK 调用接口
 
 ## AI 模型计费策略
 
-**除了中转 Key 外**， **API**与通过**网页**使用的计费方式是相同的，本质上是相同的接口（如 `gpt-3.5-turbo-16k`, 网站免费，同理得 API 免费）。
+**除了 OpenAI API 外**， **Chat Nio API** 与通过 **网页** 使用的计费方式是相同的 (相同接口)。
 
-**中转 Key 仅支持弹性计费。**参考下方弹性计费标准：
+**OpenAI API 中转仅支持弹性计费**。参考下方弹性计费标准：
 
 {% content-ref url="../ai-mo-xing-ji-ji-fei.md" %}
 [ai-mo-xing-ji-ji-fei.md](../ai-mo-xing-ji-ji-fei.md)
@@ -35,7 +35,7 @@ coverY: 0
 
 [Java SDK](https://github.com/hujiayucc/ChatNio-SDK-Java) (感谢 [@hujiayucc](https://github.com/hujiayucc))
 
-## API 接口参考
+## API 接口文档
 
 {% content-ref url="api-reference/" %}
 [api-reference](api-reference/)
