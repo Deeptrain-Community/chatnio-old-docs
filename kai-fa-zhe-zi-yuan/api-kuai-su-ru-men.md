@@ -11,7 +11,7 @@ coverY: 0
 
 **除了 OpenAI API 外**， **Chat Nio API** 与通过 **网页** 使用的计费方式是相同的 (相同接口)。
 
-\*\*中转 Key 仅支持弹性计费。\*\*参考下方弹性计费标准：
+**OpenAI API 中转仅支持弹性计费**。参考下方弹性计费标准：
 
 {% content-ref url="../ai-mo-xing-ji-ji-fei.md" %}
 [ai-mo-xing-ji-ji-fei.md](../ai-mo-xing-ji-ji-fei.md)
