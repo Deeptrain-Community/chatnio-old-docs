@@ -40,7 +40,7 @@ Claude Slack 因为 Slack 政策调整现已关闭使用。
 
 ### SparkDesk 讯飞星火
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="135">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>spark-desk-v1.5</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.15</td><td>0.15</td></tr><tr><td>spark-desk-v2</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr><tr><td>spark-desk-v3</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="135">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>spark-desk-v3.5, spark-desk-v3, spark-desk-v2</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.3</td><td>0.3</td></tr><tr><td>spark-desk-v1.5</td><td>对齐<a href="https://xinghuo.xfyun.cn/sparkapi">官网</a>计费</td><td>0.15</td><td>0.15</td></tr></tbody></table>
 
 ### ChatGLM 智谱清言
 
