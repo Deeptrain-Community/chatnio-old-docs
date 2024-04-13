@@ -1,7 +1,6 @@
 ---
 description: >-
-  🚀 Chat Nio 是一个强大且功能丰富的 AI 聚合聊天平台，支持分布式流式传输，图像生成，对话跨设备自动同步和分享功能实现订阅和 Token
-  弹性计费系统，Key 中转服务，多模型聚合支持等。实现联网搜索功能，自定义预设等功能。
+  🚀 Next Generation AI One-Stop Internationalization Solution. 🚀 下一代 AI 一站式 B/C 端解决方案，支持 OpenAI，Midjourney，Claude，讯飞星火，Stable Diffusion，DALL·E，ChatGLM，通义千问，腾讯混元，360 智脑，百川 AI，火山方舟，新必应，Gemini，Moonshot 等模型，支持对话分享，自定义预设，云端同步，模型市场，支持弹性计费和订阅计划模式，支持图片解析，支持联网搜索，支持模型缓存，丰富美观的后台管理与仪表盘数据统计。
 cover: .gitbook/assets/david-kidd-STWpM_WPrEs-unsplash.jpg
 coverY: 0
 layout:
@@ -26,8 +25,8 @@ layout:
 
 {% tabs %}
 {% tab title="1. 官方站用户" %}
-* **Chat Nio 主站**：[chatnio.net](https://chatnio.net/) ，以实惠的价格体验到各种 AI 大模型。
-* 追求稳定、高速的用户，可以使用**Mahiro 官转站**：[o.chatnio.net](https://o.chatnio.net/)，纯 OpenAI 官方 API 转发站。
+* **Chat Nio 主站**：[chatnio.net](https://chatnio.net) ，以实惠的价格体验到各种 AI 大模型。
+* 追求稳定、高速的用户，可以使用**Mahiro 官转站**：[o.chatnio.net](https://o.chatnio.net)，纯 OpenAI 官方 API 转发站。
 {% endtab %}
 
 {% tab title="2. 私有化部署类" %}
