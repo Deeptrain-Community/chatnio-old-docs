@@ -12,10 +12,10 @@
 
 ### OpenAI / Azure OpenAI
 
-<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo (0301, 0613)</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.015</td><td>0.02</td></tr><tr><td>gpt-3.5-turbo-1106</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.01</td><td>0.02</td></tr><tr><td>gpt-3.5-turbo-0125</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.005</td><td>0.015</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.03</td><td>0.04</td></tr><tr><td>gpt-4 (0314, 0613)</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.3</td><td>0.6</td></tr><tr><td><p>gpt-4-1106-preview, </p><p>gpt-4-0125-preview,</p><p>gpt-4-turbo-preview,</p><p>gpt-4-vision-preview</p></td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.1</td><td>0.3</td></tr><tr><td><p>gpt-4-v, </p><p>gpt-4-dalle, </p><p>gpt-4-all</p></td><td>0.1 元一次（轻度 GPT-4 用户性价比远超官网）</td><td>-</td><td>1 / 次</td></tr><tr><td>gpt-4-32k (0314, 0613)</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.6</td><td>1.2</td></tr><tr><td>azure-gpt-3.5-turbo</td><td>0.4 元 1 刀 (官网 17 分之一)</td><td>0.006</td><td>0.008</td></tr><tr><td>azure-gpt-3.5-turbo-16k</td><td>0.4 元 1 刀 (官网 17 分之一)</td><td>0.012</td><td>0.016</td></tr><tr><td>azure-gpt-4</td><td>0.8 元 1 刀 (官网 9 分之一)</td><td>0.240</td><td>0.480</td></tr><tr><td>azure-gpt-4-32k</td><td>0.8 元 1 刀 (官网 9 分之一)</td><td>0.480</td><td>0.960</td></tr><tr><td>dalle, dall-e-2, dall-e-3 </td><td>请参见下方 <strong>AI 绘图</strong></td><td>-</td><td>-</td></tr><tr><td>gpt-3.5-free, gpt-3.5-16k-free</td><td>1 元 5000 次 (1 点数 500 次)</td><td>-</td><td>0.002 / 次</td></tr></tbody></table>
+<table><thead><tr><th>模型</th><th>费率</th><th width="126">问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>gpt-3.5-turbo (0301, 0613)</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.015</td><td>0.02</td></tr><tr><td>gpt-3.5-turbo-1106</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.01</td><td>0.02</td></tr><tr><td>gpt-3.5-turbo-0125</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.005</td><td>0.015</td></tr><tr><td>gpt-3.5-turbo-16k</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.03</td><td>0.04</td></tr><tr><td>gpt-4 (0314, 0613)</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.3</td><td>0.6</td></tr><tr><td><p>gpt-4-turbo,</p><p>gpt-4-turbo-2024-04-09, </p><p>gpt-4-1106-preview, </p><p>gpt-4-0125-preview,</p><p>gpt-4-turbo-preview,</p><p>gpt-4-vision-preview</p></td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.1</td><td>0.3</td></tr><tr><td><p>gpt-4-v, </p><p>gpt-4-dalle, </p><p>gpt-4-all</p></td><td>0.1 元一次（轻度 GPT-4 用户性价比远超官网）</td><td>-</td><td>1 / 次</td></tr><tr><td>gpt-4-32k (0314, 0613)</td><td>1 元 1 刀 (<a href="https://openai.com/pricing">官网</a> 7 分之一)</td><td>0.6</td><td>1.2</td></tr><tr><td>azure-gpt-3.5-turbo</td><td>0.4 元 1 刀 (官网 17 分之一)</td><td>0.006</td><td>0.008</td></tr><tr><td>azure-gpt-3.5-turbo-16k</td><td>0.4 元 1 刀 (官网 17 分之一)</td><td>0.012</td><td>0.016</td></tr><tr><td>azure-gpt-4</td><td>0.8 元 1 刀 (官网 9 分之一)</td><td>0.240</td><td>0.480</td></tr><tr><td>azure-gpt-4-32k</td><td>0.8 元 1 刀 (官网 9 分之一)</td><td>0.480</td><td>0.960</td></tr><tr><td>dalle, dall-e-2, dall-e-3 </td><td>请参见下方 <strong>AI 绘图</strong></td><td>-</td><td>-</td></tr><tr><td>gpt-3.5-free, gpt-3.5-16k-free</td><td>1 元 5000 次 (1 点数 500 次)</td><td>-</td><td>0.002 / 次</td></tr></tbody></table>
 
 {% hint style="warning" %}
-DALLE-2, DALLE-3, GPT-4 Vision Preview 已做好格式兼容，按照通用格式调用即可（在任何地方输入 url 即可），无需再适配进行格式（同样支持格式）。
+DALLE-2, DALLE-3, GPT-4 Turbo & Vision Preview 已做好 Vision 格式兼容，按照通用格式调用即可（在任何地方输入 url 即可），无需再适配进行格式（同样支持格式）。
 
 GPT 3.5 Free 系列不保证稳定性，不支持 Function Calling。
 {% endhint %}
@@ -52,9 +52,9 @@ Claude Slack 因为 Slack 政策调整现已关闭使用。
 
 ### Google Gemini / PaLM2
 
-| 模型                                                                | 回答 Token (点数 / 次数) |
-| ----------------------------------------------------------------- | ------------------ |
-| <p>chat-bison-001,</p><p>gemini-pro, </p><p>gemini-pro-vision</p> | 0.05 / 次           |
+| 模型                                                                                             | 回答 Token (点数 / 次数) |
+| ---------------------------------------------------------------------------------------------- | ------------------ |
+| <p>chat-bison-001,</p><p>gemini-pro, </p><p>gemini-pro-vision,</p><p>gemini-1.5-pro-latest</p> | 0.05 / 次           |
 
 {% hint style="info" %}
 Google PaLM2 (chat-bision-001) 不支持包括中文在内的语言并且会频繁出现编码问题，Google 几乎已废弃该模型，推荐使用 Gemini (gemini 返回同为“伪”流式传输)。
